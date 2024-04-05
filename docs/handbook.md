@@ -6,6 +6,9 @@ redirect_from:
   - /faq
 ---
 
+* Table of Contents
+{:toc}
+
 <i>
 A guide for residents of Eddington to the many places, processes, practices and policies that are uniquely relevant to this development. This remains a work-in-progress - please [contribute any corrections]({{ site.github.repository_url }}/tree/main/docs/{{ page.path }}){:target="_blank"}.
 </i>
