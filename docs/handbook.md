@@ -191,6 +191,8 @@ The University has its own [security service](https://www.security.admin.cam.ac.
 
 ## Renting in the University's key worker accommodation
 
+To qualify for [University Accommodation](https://www.accommodation.cam.ac.uk/FindAHome/), applicants must be a student or member of staff employed by the University of Cambridge, a Cambridge College or one of the Affiliated Institutions.
+
 ## Freehold and leasehold privately owned properties
 
 ## Councils and democratic representation
