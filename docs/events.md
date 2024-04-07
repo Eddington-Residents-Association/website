@@ -136,14 +136,20 @@ function makeEventsPageHtml(events, start_date){
           +`<br><br>\n\n`
       ).join("\n")
 
-    html += `<tr class="day ${weekend_class}">
+
+    prev_date = date;
+
+    if (events_html === "") {
+      continue;
+    }
+
+    html += `<tr class="day">
     <td class="date"><a href="#${date_name}" name="${date_name}">${date_str}</a></td>
     <td class="events">
       ${events_html}
     </td>
 </tr>\n`
 
-    prev_date = date;
   }
   html += `  </tbody>\n</table>`
 
