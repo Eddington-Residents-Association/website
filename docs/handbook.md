@@ -80,8 +80,7 @@ is available on-street throughout Eddington and normally requires registration d
 
 Anyone can register their car using the [JustPark app](https://www.justpark.com/) or one of the central parking machines. Once you register your visit, the first hour is free and then it's roughly £2 per hour thereafter. Maximum parking time limits apply via this method, normally of two or four hours. Full information on the [Cashless on-site parking info sheet](https://portal.eddington-cambridge.co.uk/_downloads/Eddington-Parking-Information_202309.pdf).
 
-Residents and their visitors parking in these public spaces can use a separate system to register for a 24 period, and for a reduced fee (flat £2.80 at the time of writing). [Connect Cashless Parking](https://www.connectcashlessparking.com/) is the provider and they offer
-both phone and app-based payment, location code 2604. A limit of 100 days per year is applied per household to prevent a small number of residents from monopolising the limited spaces.
+Residents and their visitors parking in these public spaces can use a separate system to register for a 24 period, and for a reduced fee (flat £2.80 at the time of writing). From July 2024 [PayByPhone](https://www.paybyphone.co.uk/) provides this service with payments taken by web, app and phone - location code 809529. A limit of 100 days per year is applied per household to prevent a small number of residents from monopolising the limited spaces.
 
 90 minutes of free parking without registration is available for users of Sainsbury's and Argos in their underground car park. 18 hours of free parking without registration is available at Madingley Park & Ride.
 
