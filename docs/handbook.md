@@ -6,6 +6,9 @@ redirect_from:
   - /faq
 ---
 
+* Table of Contents
+{:toc}
+
 <i>
 A guide for residents of Eddington to the many places, processes, practices and policies that are uniquely relevant to this development. This remains a work-in-progress - please [contribute any corrections]({{ site.github.repository_url }}/tree/main/docs/{{ page.path }}){:target="_blank"}.
 </i>
@@ -194,6 +197,8 @@ The University has its own [security service](https://www.security.admin.cam.ac.
 [Storey's Field Centre](https://www.storeysfieldcentre.org.uk/){:name='sfc'}
 
 ## Renting in the University's key worker accommodation
+
+To qualify for [University Accommodation](https://www.accommodation.cam.ac.uk/FindAHome/), applicants must be a student or member of staff employed by the University of Cambridge, a Cambridge College or one of the Affiliated Institutions.
 
 ## Freehold and leasehold privately owned properties
 
