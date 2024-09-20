@@ -5,7 +5,7 @@ date: 2050-01-30  # hack for sort order until Jekyll v4
 frequency: quarterly
 is_public_minutes: true
 website: https://portal.eddington-cambridge.co.uk/welcome/
-next_date:
+next_date: 2024-09-10
   -
 prev_dates:
   - 2024-06-11

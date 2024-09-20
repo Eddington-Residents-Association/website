@@ -193,6 +193,8 @@ The University has its own [security service](https://www.security.admin.cam.ac.
 
 [Storey's Field Centre](https://www.storeysfieldcentre.org.uk/){:name='sfc'}
 
+[The local Post Office](https://www.postofficeviews.co.uk/national-consultation-team/west-cambridge-university-cb3-0us-1-011113/) is in West Hub on the West Cambridge site, just south of Eddington.
+
 ## Renting in the University's key worker accommodation
 
 ## Freehold and leasehold privately owned properties
