@@ -1,5 +1,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-dfX5uYVXzyU8+KHqj8bjo7UkOdg18PaOtpa48djpNbZHwExddghZ+ZmzWT06R5v6NSk3ZUfsH6FNEDepLx9hPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
+
+{% assign weekly_events = site.weekly_events %}
+const WEEKLY_EVENT_DETAILS = {
+{% for event in weekly_events %}
+  {{ event.code }}: {
+    title: "{{ event.title }}",
+    day: "{{ event.day }}",
+    start_time: "{{ event.start_time }}",
+    end_time: "{{ event.end_time }}",
+    location: "{{ event.location }}",
+    price: "{{ event.price }}",
+    registration_required: "{{ event.registration_required }}",
+    website: "{{ event.website }}",
+  }
+{% endfor %}
+}
+
 const DATE_APPROVED = 0;
 const DATE_SUBMITTED = 1;
 const NAME = 2;
@@ -14,18 +31,60 @@ const DESCRIPTION = 10;
 
 function getEventsData(callback){
   let events_data = localStorage.getItem("events_data")
+  let weekly_events_data = localStorage.getItem("weekly_events_data")
   let events_last_polled = parseInt(localStorage.getItem("events_last_polled"))
   const urlParams = new URLSearchParams(window.location.search);
   reload = parseInt(urlParams.get('reload') ?? "0")
-  if( events_data && events_last_polled >= Date.now() - 3600 * 1000 && !reload){
+  if( events_data && weekly_events_data && events_last_polled >= Date.now() - 3600 * 1000 && !reload){
     console.log("loading events from fresh local cache")
-    return callback(JSON.parse(events_data))
+    return callback(JSON.parse(events_data), JSON.parse(weekly_events_data))
   }
+  /*
   fetchEventsData(function(data){
     localStorage.setItem("events_last_polled", ""+Date.now());
     localStorage.setItem("events_data", JSON.stringify(data));
     callback(data)
   })
+  */
+  asyncFetchEventsData()
+  .then(function(results){
+    events_data = results[0].data
+    weekly_events_data = results[1].data
+    console.log(results[1].data)
+    localStorage.setItem("events_last_polled", ""+Date.now());
+    localStorage.setItem("events_data", JSON.stringify(events_data));
+    localStorage.setItem("weekly_events_data", JSON.stringify(weekly_events_data));
+    callback(events_data, weekly_events_data)
+  })
+}
+
+function asyncFetchEventsData(){
+  // based on https://stackoverflow.com/a/47902497
+  sheetIds = ['2PACX-1vSh-lqiNoQc5XgSQB7zFSpnu8iNvATakGWAuhDgYRIe_mvP03BNJkg83tshb6lnQUjTC2U6zygqagnS',
+              '2PACX-1vRAzBckznytozdoec5IhF3FJpsEAxNm7g5j38OE3JQ-pWPMA5W6ZSIDXXHU_15mBDmyr8BGAmhrrS3F']
+
+  return Promise.all(
+    sheetIds
+    .map(
+      sheetId=>
+        new Promise(
+          (resolve,reject)=>
+            Papa.parse(
+            `https://docs.google.com/spreadsheets/d/e/${sheetId}/pub?single=true&output=csv`,
+            {
+              worker: true,
+              download: true,
+              header: false,
+              complete: resolve,
+              error: reject
+            }
+          )
+        )
+    )
+  )
+  .catch(//log the error
+    err=>console.warn("Something went wrong:",err)
+  )
 }
 
 function fetchEventsData(callback){
@@ -59,6 +118,11 @@ function getEventsForMonth(sheet_data, month_skip){
   return getEventsForPeriod(sheet_data, month_start, month_end)
 }
 
+function timeToDate(time_string){
+  // takes "15:45" and returns a Date object with that time (and junk other fields)
+  return new Date(2000, 1, 1, ...time_string.split(":"))
+}
+
 function getEventsForPeriod(sheet_data, start_date, end_date){
   console.log(`looking for events between ${start_date} and ${end_date}`);
   start_date = start_date.setHours(0,0,0,0)
@@ -68,14 +132,65 @@ function getEventsForPeriod(sheet_data, start_date, end_date){
       all_events[i][field] = parseDate(all_events[i][field])
     }
     for(field of [START_TIME, END_TIME]){
-      all_events[i][field] = new Date(2000, 1, 1, ...all_events[i][field].split(":"))
+      all_events[i][field] = timeToDate(all_events[i][field])
     }
   }
   var filtered_events = all_events.filter((x)=>x[DATE_APPROVED] && x[DATE_APPROVED] > x[DATE_SUBMITTED] && x[DATE] >= start_date && x[DATE] < end_date);
-  console.log(filtered_events)
-
   console.log(`${filtered_events.length} events found for period`);
   return filtered_events
+}
+
+function fillInWeeklyEvents(events, weekly_events, start_date, end_date){
+  // make a holding object for the date ranges of weeks of, one list for each event
+  let weeks_off = Object.entries(WEEKLY_EVENT_DETAILS).reduce(function(result, item, index, array) {
+    result[item[0]] = [];
+    return result;
+  }, {})
+
+  // pull out a date for the first month of the year based on the column header
+  const month_names = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+  let cell_num_to_month = {}
+  let headers = weekly_events[0]
+  for(let i=0; i<headers.length; i++){
+    if(headers[i].includes("Weeks off")){
+      let matches = headers[i].match(/\[(.+?) (\d+)\]/)
+      cell_num_to_month[i] = new Date(parseInt(matches[2]), month_names.indexOf(matches[1]), 1)
+    }
+  }
+
+  // loop through the row for each event in turn, turning any date range strings (like "1st-7th, 15th-21st")
+  // into a list of date-pairs
+  const first_date_cell_num = Math.min(...Object.keys(cell_num_to_month))
+  for(const row of weekly_events.slice(1)){
+    let event_code = row[1]
+    if(!(event_code in weeks_off)){ continue }
+    for(const cell_num in row){
+      if(cell_num < first_date_cell_num){ continue }
+      let base_date = cell_num_to_month[cell_num]
+      for(const date_range_string of row[cell_num].split(", ")){
+        let matches = date_range_string.match(/(\d+)..-(\d+)../)
+        if(matches){
+          let week_start = new Date(base_date.getFullYear(), base_date.getMonth(), matches[1])
+          let week_end = new Date(base_date.getFullYear(), base_date.getMonth(), matches[2], 22, 0, 0)
+          weeks_off[event_code].push([week_start, week_end])
+        }
+      }
+    }
+  }
+
+  // add weekly events to the `events` array on the appropriate day, only if it's not during a week off
+  for(const [event_code, event] of Object.entries(WEEKLY_EVENT_DETAILS)){
+    console.log(event)
+    for(var date = start_date; date < end_date; date = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1)){
+      if(event.day == date.toLocaleString('default', {weekday: "long"})){
+        let is_week_off = weeks_off[event_code].reduce((result, item)=>result || (date >= item[0] && date <= item[1]), false)
+        if(!is_week_off){
+          events.push(["1", "1", event["title"], date, timeToDate(event["start_time"]), timeToDate(event["end_time"]), event["location"], `/events/${event_code}`, event["registration_required"], event["price"], false])
+        }
+      }
+    }
+  }
+  return events
 }
 
 function makeNewsletterHtml(events, start_date){

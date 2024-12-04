@@ -8,7 +8,12 @@ defaults:
 repository: Eddington-Residents-Association/website
 
 collections:
-  - meetings
+  meetings:
+    output: false
+  weekly_events:
+    output: true
+    permalink: /events/:name
+    folder: _weekly_events
 
 plugins:
 - jekyll-github-metadata

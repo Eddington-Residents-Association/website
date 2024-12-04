@@ -27,11 +27,11 @@ This page help generate the html needed for the monthly newsletter.
 {% include main_js.html %}
 <script>
 window.addEventListener("load", (event) => {
-  getEventsData(function(data){
+  getEventsData(function(one_off_events, weekly_events = []){
     let $events_div = document.getElementById("events_html")
     const urlParams = new URLSearchParams(window.location.search);
     skip = parseInt(urlParams.get('skip') ?? "1")
-    var events = getEventsForMonth(data, skip)
+    var events = getEventsForMonth(one_off_events, skip)
     let event_table_rows = makeNewsletterHtml(events);
     $events_div.getElementsByClassName("loading")[0].classList.add("d-none")
     $events_div.getElementsByClassName("newsletter_raw")[0].innerHTML = event_table_rows

@@ -64,11 +64,13 @@ with funding, volunteers and promotion.
     background-color: #fec;
   }
 </style>
+
 <script>
 window.addEventListener("load", (event) => {
-  getEventsData(function(data){
+  getEventsData(function(one_off_events, weekly_events = []){
     var now = new Date();
-    var events = getEventsForPeriod(data, now, addMonths(now, 3))
+    var events = getEventsForPeriod(one_off_events, now, addMonths(now, 3))
+    events = fillInWeeklyEvents(events, weekly_events, now, addMonths(now, 3))
     document.getElementById("events_html").innerHTML = makeEventsPageHtml(events, now);
     window.setTimeout(scrollToChosenEvent, 500)  // prevent race condition with events_html injection
   });
@@ -129,14 +131,17 @@ function makeEventsPageHtml(events, start_date){
 
     let sep = `{%- include separator.md -%}`
     var events_html = day_events.map(
-      (x)=>`<a href="${x[URL]}">${x[NAME]}</a>\n`
-          +` ${sep} ${time_range(x)}\n`
+      (x)=>`<a href="${x[URL]}">${x[NAME]}</a>\n${sep}`
+          + (x[DESCRIPTION] === false ? "<span class='weekly'>every week</span>" : "")
+          +` ${time_range(x)}\n`
           +` ${sep} ${x[LOCATION]}\n\n`
           +` ${sep} ${price(x)}\n`
-          +` &nbsp; &nbsp; ${add_to_calendar_button(x)}\n<br/>\n`
-          +` ${x[DESCRIPTION].trim()}`
-          + (x[URL] ? `  <a href="${x[URL]}">${info_link(x)}</a>`:"")
-          +`<br><br>\n\n`
+          + (x[DESCRIPTION] !== false ?
+            ` &nbsp; &nbsp; ${add_to_calendar_button(x)}\n<br/>\n`
+            +` ${x[DESCRIPTION].trim()}`
+            + (x[URL] ? `  <a href="${x[URL]}">${info_link(x)}</a>`:"")
+            +`<br>\n\n`
+          : "\n<br/>\n")
       ).join("\n")
 
     html += `<tr class="day ${weekend_class}">
@@ -170,4 +175,4 @@ function add_to_calendar_button(x){
 ></add-to-calendar-button>`
 }
 </script>
-<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2.6.14" integrity="sha384-APA3+zG8NRE4ML4hiWv+3NFvcbooelKsBJHModWOORVG8BwjqysAzxB6/gdpqRhF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2.8.9/dist/atcb.min.js" integrity="sha384-bHsRfGcg++u9QFroJxUSHuwhErhEmmgmHI9lXuBadTKsxj2GZ0lR9poaAZUBkZ7C" crossorigin="anonymous"></script>
