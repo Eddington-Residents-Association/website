@@ -6,8 +6,10 @@ frequency: quarterly
 is_public_minutes: false
 website:
 next_date:
-  - 2024-09-19
+  - 2024-11-14
 prev_dates:
+  - 2024-11-14
+  - 2024-09-19
   - 2024-05-09
   - 2023-05-18
   - 2023-02-09

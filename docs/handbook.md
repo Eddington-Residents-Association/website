@@ -148,7 +148,7 @@ signal in Eddington is strong in central areas but is more limited in the north 
 [University of Cambridge Primary School](https://www.universityprimaryschool.org.uk/){:name='primary-school'}
 is a [new state school](https://www.universityprimaryschool.org.uk/) built to support the population growth in North West Cambridge. In 2024 it will have a school roll of 656 children across a single pre-school class (for children turning 4 during that academic year) and three primary classes for reception through Year 6 (ages ~5 to ~11).
 
-[Bright Horizons Day Nursery](https://www.brighthorizons.co.uk/our-nurseries/eddington-nursery){:name='nursery'} is a day nursery for children from 3 months to 5 years. 80% of places are reserved for the children of students and staff of the University, and subject to their own [application process](https://www.childcare.admin.cam.ac.uk/application-process)
+[Bright Horizons Day Nursery](https://www.brighthorizons.co.uk/our-nurseries/eddington-nursery){:name='nursery'} is a day nursery for children from 3 months to 5 years. 80% of places are reserved for the children of students and staff of the University, and subject to their own [application process](https://www.childcare.admin.cam.ac.uk/application-process).
 
 [A State Secondary School](https://www.meridiantrust.co.uk/cmat-academies/darwin-green-academy/){:name='secondary-school'} with catchment area including Eddington and Darwin Green is planned to open in 2026. In the interim older kids are served by the distant [Impington Village College](https://ivc.tela.org.uk/) and [Chesterton Community College](https://ccc.tela.org.uk/).
 
