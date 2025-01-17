@@ -6,8 +6,9 @@ frequency: quarterly
 is_public_minutes: true
 website: https://portal.eddington-cambridge.co.uk/welcome/
 next_date:
-  - 2024-12-10
+  - 2025-03-11
 prev_dates:
+  - 2024-12-10
   - 2024-09-10
   - 2024-06-11
   - 2024-03-19
