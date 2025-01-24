@@ -174,7 +174,7 @@ is at at the south end of Eddington Avenue ([map](https://www.google.com/maps/@5
 [Estate Service Charge](https://portal.eddington-cambridge.co.uk/estate-service-charge/){:name='estate-service-charge'}
 
 [Safety and Security](#safety){:name='safety'}
-remains a key concern for our residents. While Cambridge is a relatively low-crime city, bike thefts and antisocial behaviour are common. In Eddington it is likely because this is a quiet area with lots of public space and a late-opening, licensed supermarket. Residents are urged to [report all incidents](https://www.cambs.police.uk/report) and suspicious behaviour to the police - and by calling 999 if urgent e.g. a crime in progress. As a new borough of the city, sustained reporting of undesirable activity is needed to guide the allocation of police resources.
+remains a key concern for our residents. While Cambridge is a relatively low-crime city, bike thefts and antisocial behaviour are common. In Eddington it is likely because this is a quiet area with lots of public space and a late-opening, licensed supermarket. Residents are urged to [report all incidents](https://www.cambs.police.uk/report) and suspicious behaviour to the police - and by calling 999 if urgent e.g. a crime in progress. If you are unsure whether or not an event should be reported, use the [Cambs Police live chat](https://www.cambs.police.uk/police-forces/cambridgeshire-constabulary/areas/services/web-chat/) for advice. As a new borough of the city, sustained reporting of undesirable activity is needed to guide the allocation of police resources.
 
 <details markdown="1">
 <summary>See how Portal, Encore and the University fit into local safety planning</summary>
