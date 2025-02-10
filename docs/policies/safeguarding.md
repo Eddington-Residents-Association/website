@@ -1,68 +1,18 @@
 ---
 title: Safeguaring Policy
-date: 2024-05-15
+date: 2022-02-06
 ---
 
-This policy aims to ensure the safety of those undertaking activities on behalf of the Eddington
-Residents Association (ERA) and the children, young people and adults we come into contact with.
-The ERA is committed to safeguarding and promoting the welfare of children, young people and
-adults. We take our responsibilities seriously and expect all workers and volunteers to share this
-commitment.
+This policy aims to ensure the safety of those undertaking activities on behalf of the Eddington Residents’ Association (ERA) and the children, young people and adults we come into contact with. The ERA is committed to safeguarding and promoting the welfare of children, young people and adults. We take our responsibilities seriously and expect all those in the Association to share this commitment.
 
-Safeguarding is about protecting children and adults who might be at risk from abuse and neglect
-which can be physical, emotional, sexual or financial. We also want to keep our volunteers safe from
-allegation and deter anyone looking to use this as an opportunity to abuse others.
-ERA will:
+Safeguarding is about protecting children and adults who might be at risk from abuse and neglect which can be physical, emotional, sexual or financial. We also want to keep colleagues safe from allegation and deter anyone looking to use this as an opportunity to abuse others.
 
-1. Promote good practice that encourages a safe environment, protects all parties and avoids
-mistaken allegations of abuse
-2. Have a designated Safeguarding Lead who:
-a. Will oversee the association’s safeguarding responsibilities
-b. Be the point of contact for safeguarding concerns (receive and action)
-c. Ensure cover for this role in their absence
-d. Ensure any incidents of poor practice, allegations and suspicions are reported, taken
-seriously and responded to swiftly and appropriately
-3. Recruit volunteers as safely as possible at this time by:
-a. Collecting names, addresses and contact information
-b. Checking identities
-c. Collecting copies of DBS checks if available and recording the reference number and
-date of check
-d. Asking and recording if the applicant has been barred from working with children and
-adults
-e. Rejecting applicants whose identities cannot be verified or who are barred
-4. Provide all volunteers with safeguarding awareness information on:
-a. What safeguarding means
-b. Who the Safeguarding Lead is
-c. What their responsibilities are and are not
-d. What to do if they have a concern
-e. How to keep themselves safe
+The ERA will require that all children and vulnerable adults attending events it sponsors are accompanied at all times by parents and carers who will be responsible for their safety. Parents and carers will specifically not be allowed to leave their children and vulnerable adults unattended during activities, even for a short time. The ERA has no power to oversee arrangements parents may make to leave their children in the care of others (e.g. other parents) and cannot take any responsibility for these arrangements.
 
-We will implement good practice to record that the information has been given and
-training has been undertaken wherever possible. Additional training materials are
-available at http://www.safeguardingcambspeterborough.org.uk
+Where the ERA supports community activities organised by others (e.g. by providing funding) it will strongly recommend that the organisers adopt the same policy. The ERA is not in a position to demand Disclosure and Barring Service checks from those who participate in its activities, nor to ban from its activities those who do not wish to apply for such checks.
 
-5. Support volunteers in their work by:
-a. Establishing protocols and good working practice and boundaries for the tasks being
-undertaken
-b. Working in pairs where necessary
-c. Providing a contact for volunteers for emotional support
-6. Share and store confidential and sensitive data appropriately:
-a. Making every effort to ensure that confidentiality is maintained for all concerned
-b. Undertaking its obligations to report disclosures and concerns and reserve the right
-to report child and adult safeguarding issues
-c. Ensuring information is accurate, relevant and stored securely with limited access to
-only those who need it
+The ERA will however promote good practice that encourages a safe environment and protects all parties to the extent it is able to do so. Where concerns are drawn to the attention of the ERA or its Committee it will make every effort to ensure their investigation in a timely manner by the appropriate agencies, and respect confidentiality when it does so. Participants in ERA events will be encouraged to bring any concerns to the attention of the Association as soon as possible, and will be assured that they will be investigated. Records of such concerns and their subsequent investigation will be held securely and only shared with statutory agencies.
 
-Volunteers are expected to:
-
-1. Be aware of this policy
-2. Undertake training and note the information provided
-3. Not undertake any activities outside of those agreed with the Association as the role of
-volunteer
-4. Know who the association’s Safeguarding Lead is and how to contact them
-5. Report any concerns, however small, including but not limited to any concerns of danger to
-anyone, inappropriate behaviour or bad practice to the Safeguarding Lead or to another
-senior person if it is about the Safeguarding Lead
-6. Ask for any support needed
+This policy was agreed upon by the Association's Committee.
 
 {{ page.date }}
