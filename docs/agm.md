@@ -1,26 +1,17 @@
 ---
-title: Our Annual General Meeting 2024
-permalink: archive/agm2024
+title: Our Annual General Meeting 2025
+permalink: agm
 redirect_from:
   - /agm2024
-  - /agm
 ---
 
----
-
-*This page is now archived
-<a href="/agm/summary" class="btn btn-primary btn-lg m-3">see the AGM summary</a>
-to find out what happened.*
-{: style="text-align: center;"}
----
-
-Thursday {% include date_ordinal.md day=11 %} April 2024
+Thursday {% include date_ordinal.md day=24 %} April 2025
 {%- include separator.md -%}
 6pm at Storey's Field Centre
 {%- include separator.md -%}
 immediately following Portal's Residents Forum
 
-Each year we meet to take stock of the previous twelve months and set a course for the year to come. All residents are encouraged to attend, to ask questions about what we do and to find out how to get involved.
+Each year we meet to take stock of the previous twelve months and set a course for the year to come. All residents are encouraged to attend, to ask questions about what we do and to find out how to get involved. You can read the [summary of last year's AGM](/archive/agm2024-summary) to get the gist.
 
 The ERA only exists because a group of residents decided to set it up. It only continues because a handful of local volunteers want to do something for the community. And it will only endure if Eddington residents give their time to keep the gears turning.
 
