@@ -8,15 +8,14 @@ website: https://find-and-update.company-information.service.gov.uk/company/1063
 next_date:  
 #  - 2025-11-20  
 #  - 2025-09-25  
-#  - 2025-06-05  
-#  - 2025-03-27  
-  - 2025-01-28
+  - 2025-06-05  
 prev_dates:
+  - 2025-03-27
+  - 2025-01-28
   - 2024-11-18
   - 2024-09-18
   - 2023-12-04
   - 2023-01-23
 
 ---
-We are permitted to attend the first section of Portal's Board meeting to give a resident's
-viewpoint on more strategic and policy-related issues.
+We have an observer role at Portal's Board meeting to give a resident's viewpoint on more strategic and policy-related issues.

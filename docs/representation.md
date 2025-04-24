@@ -30,7 +30,7 @@ Inactive
 {% if next_meeting_timestamp > now_timestamp -%}
   {{ meeting.next_date|date: "%A %d %B %Y"}}
 {%- else -%}
-  TBD
+  TBA
 {%- endif %}
 {%- if meeting.website -%}
 {%- include separator.md -%}  [organisation website]({{meeting.website}})

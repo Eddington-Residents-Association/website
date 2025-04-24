@@ -6,6 +6,7 @@ frequency: annually
 is_public_minutes: true
 website:
 next_date:
+  - 2025-04-24
 prev_dates:
   - 2024-04-11
   - 2023-01-19
