@@ -1,18 +1,19 @@
 ---
-title: Summary of our Annual General Meeting 2024
-permalink: agm/summary
+title: Summary of our Annual General Meeting 2025
+permalink: agm-summary
 ---
 
-We were thrilled to have over 50 residents come to our 2024 AGM. Thanks to those who attended for their support and the many interesting initiatives discussed.
+We were thrilled to have over 40 residents come to our 2025 AGM. Thanks to those who attended for their support and involvement in the discussions.
 
 ## What we reported
 
 <div style="position:relative; perspective: 8386px;">
-  <iframe id="agm-presentation" src="https://docs.google.com/presentation/d/e/2PACX-1vR4CIVjSIIdrFshEcU4PbnfSWLLvczSGdMnKNgnSLRzwO5IIFZaiTfDJ2cbXtODyA/embed?start=true&loop=true&delayms=3000" frameborder="0" width="80%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+  <iframe id="agm-presentation" src="https://docs.google.com/presentation/d/e/2PACX-1vScJERQcVa4OdCgqZNrJQw8heRa-7QxxGe2c_o7E-EzXYeg84_Xxg--X2sCSkl7vQ/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="80%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
   </iframe>
 </div>
 
-![Picture of the 2024 AGM in full swing](/images/agm2024.jpg)
+![Picture of the 2024 AGM (because we forgot to take one this year 🤦)](/images/agm2024.jpg)
+*Picture of the 2024 AGM (because we forgot to take one this year* 🤦)
 
 Graham, John, James and Iain gave the presentation above. We explained a little of the history of the organisation and how it came to be in its current form. After explaining why a residents association is particularly important for Eddington, the chair emphasised that we need more volunteers. This will allow us to keep up with the growing opportunities and teething pains of our neighbourhood as it continuously expands.
 
@@ -20,19 +21,23 @@ We were keen to emphasise that the ERA only does what it does because of the int
 
 ## What was discussed
 
-[Tennis Courts](#tennis-courts){:name='tennis-courts'} were hoped for by many present. **We're looking for someone to champion this initiative** and can support them with access to Portal and the University's Development Office as they plan green spaces and sporting facilities for Phase 2.
+[Grant Funding](#grant-funding){:name='grant-funding'} for several new activities was secured with the assistance of the Association. In previous years our overheads were covered by contributions from each event run, funded by the Council. This year our expenses were paid from the Estate Management Charge, working out at about 10 pence per person!
 
-[Allotments](#allotments){:name='allotments'} were hoped for by many present. They featured in outline plans for Phase 2 which are currently under re-application. Portal has talked about providing some kind of temporary communal gardening space in the shorter term to bridge the gap, though this is unlikely to be a full allotment system. **We're looking for a champion of this cause**.
+[Defect Database](#defect-database){:name='defect-database'} returned to active discussion, with multiple residents supporting the creation of a communal register of housing issues and paths to resolution. **Please [let us know](contact-us) if you would be interested in contributing**.
 
-[Architectural Drawings for freeholders](#drawings){:name='drawings'} had proved tricky for many residents to extract from the developer. The ERA expressed support for a group action but has no existing relationship with Hill Residential. Richard, a local architect, has offered to champion this issue.
+[Food and Garden Waste](#green-waste){:name='green-waste'} continues to be a tricky issue for residents. The committee relayed a summary of discussions from the preceding Portal Residents Forum. Trials of food-waste bins in Key Worker housing were suspended due to repeated issues with contamination (people disposing of non-compostable waste in the bins). Forthcoming national legislation will require all councils to provide some level of green waste collection in the coming years. While there is a proposal on how our existing bin infrastructure can be modified to allow this - including a new bin design and additional collection vehicle - there's no convincing solution to the communal contamination issue.
 
-[Involvement of neighbours in Key Worker Housing](#key-workers){:name='key-workers'} was a concern leading to some useful ideas. Suggestions of ERA-curated WhatsApp groups; block representatives and keeping a list of neighbourhood groups on the website were briefly discussed. **We're seeking input from any Key Workers** who have insight into how very-local groups are organised currently.
+[Tenants of Private Landlords](#tenants){:name='tenants'} were at risk of being omitted from important communications from Portal, we heard. The ERA will review this with Portal in an effort to improve consistency of communication across all categories of resident.
 
-A number of other queries and ideas were raised, which you can find in [the full minutes](/meetings/minutes/agm/2024-04-11.pdf).
+[ERA's Social Media Presence](#social-media){:name='social-media'} presents an unexploited opportunity to bring different local groups into our orbit. Our current lack of skills in this area is a weakness we'll look to improve this year - **please [get in touch](contact-us) if you would be interested in contributing**.
+
+A number of other queries and ideas were raised, which you can find in [the full minutes](/meetings/minutes/agm/2025-04-24.pdf).
 
 ## Who was elected
 
-The seven committee members stood for re-election without competition and duly re-elected. Everyone is welcome to stand for election, but you don't have to wait till next year to get involved. Becoming a champion of a local cause or volunteering to help at an event is a great first step. And after getting some experience you might consider joining the committee in future.
+Six of the seven committee members stood for re-election without competition and duly re-elected. We're still looking for someone to take the reigns of our social media accounts - please [get in touch](contact-us) if you are interested.
+
+Everyone is welcome to stand for election, but you don't have to wait till next year to get involved. Becoming a champion of a local cause or volunteering to help at an event is a great first step. And after getting some experience you might consider joining the committee in future.
 
 {% include committee_images.html filter="current" %}
 
