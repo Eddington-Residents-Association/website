@@ -17,6 +17,13 @@ This page help generate the html needed for the monthly newsletter.
   <textarea class="instagram_raw d-inline-block"></textarea>
 </div>
 
+<h3>Raw mailchimp output to Resisense input re-formatter:</h3>
+<textarea id="raw-mailchimp-html">
+</textarea>
+<button id="do-mailchimp-reformat">Reformat</button>
+<textarea id="reformatted-mailchimp-html">
+</textarea>
+
 {% include main_js.html %}
 <script>
 window.addEventListener("load", (event) => {
@@ -31,7 +38,34 @@ window.addEventListener("load", (event) => {
     $events_div.getElementsByClassName("instagram_raw")[0].innerHTML = makeInstagramText(events);
     document.getElementById("event_table_content").innerHTML = event_table_rows
   });
+
+  document.querySelector("#do-mailchimp-reformat").addEventListener("click", ()=> {
+    input = document.querySelector("#raw-mailchimp-html").value
+
+    html = input.match(/\<body.*?\>(.*?)\<\/body/s)[1]  // grab just the usable html
+    html = convertPrintedQuotedToPlainText(html)  // decode from printed-quoted format
+    html = html.replace(/Want to change how you receive these emails\?\<br\>.*?\<br\>/s, "")  // strip unsubscribe bit
+    html = html.replace("Â©", "©")
+    html = html.replace(/(\r\n|\n|\r)/gm, "")  // strip all newline chars (Resisense turns them into <br>s!)
+
+    ouput = `<div marginwidth="0" marginheight="0" style="height:100%;margin:0;padding:0;width:100%;background-color:#ffffff">${html}</div>`
+
+    document.querySelector("#reformatted-mailchimp-html").value = ouput
+
+  })
+
 })
+
+function convertPrintedQuotedToPlainText(printedQuoted) {
+  // Replace encoded characters and remove wrapping quotes
+  return printedQuoted.replace(/=\r?\n/g, '') // Remove soft line breaks
+                               .replace(/((=[0-9A-F]{2})+)/g, function(match) {
+                                 ints = match.slice(1).split("=").map((hex)=>parseInt(hex, 16))
+                                 return new TextDecoder().decode(Uint8Array.from(ints));
+                               });
+
+}
+
 </script>
 
 
