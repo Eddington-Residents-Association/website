@@ -48,6 +48,9 @@ provide [property management services](https://www.encoreestates.co.uk/) for sev
 [Hill Residential](#hill){:name='hill'}
 are builders of private homes in the areas of Eddington marketed as "[Knights' Park](https://www.hill.co.uk/all-developments/cambridgeshire/knights-park)" and "[Rubicon](https://www.knightspark-eddington.co.uk/phases/rubicon/)". They are responsible for snagging of their newbuild properties and the delivery of shared spaces around those buildings to Portal. The boundary between shared spaces under Portal's control and those still controlled by Hill is not well defined as it gradually moves from the latter to the former.
 
+[Present Made](#present-made){:name='present-made'}
+build and operate market rental properties. These are early examples of the [UK's build-to-rent initiative](https://www.gov.uk/guidance/build-to-rent) and as such cannot be sold and are expected to remain managed by the developer for the long term. Present Made are responsible for the maintenance of their properties, communal facilities and some of the immediate landscaping. As part of their rent tenants pay into the [estate service charge](#estate-service-charge) for maintenance of shared areas across Eddington, which are maintained by Portal.
+
 [Girton College](#girton-college){:name='girton-college'}
 manages [Swirles Court](https://www.girton.cam.ac.uk/accommodation/swirles-court) (bounded by Turing Way, Pheasant Drive and the Ridgeway) as accommodation for mainly postgraduate students remote from the main college site at the north end of Ridgeway.
 
@@ -131,7 +134,7 @@ Usage is charged for based on the difference in temperature between incoming and
 </details>
 
 [Internet Connectivity](#internet){:name='internet'}
-is available [many providers](https://www.openreach.com/fibre-broadband/fttp-providers) on the OpenReach fibre network. Many properties also have fibre connections to [Virgin Media](https://www.virginmedia.com/broadband). [Eduroam](https://help.uis.cam.ac.uk/service/wifi/connect-to-eduroam) is available in some central areas but not within every building.
+is available from [many providers](https://www.openreach.com/fibre-broadband/fttp-providers) on the OpenReach fibre network. Many properties also have fibre connections to [Virgin Media](https://www.virginmedia.com/broadband). [Eduroam](https://help.uis.cam.ac.uk/service/wifi/connect-to-eduroam) is available in some central areas but not within every building.
 
 <details markdown="1">
 <summary>See advice for short-term contracts and renewal</summary>
@@ -146,11 +149,11 @@ signal in Eddington is strong in central areas but is more limited in the north 
 ## School, nursery and families
 
 [University of Cambridge Primary School](https://www.universityprimaryschool.org.uk/){:name='primary-school'}
-is a [new state school](https://www.universityprimaryschool.org.uk/) built to support the population growth in North West Cambridge. In 2024 it will have a school roll of 656 children across a single pre-school class (for children turning 4 during that academic year) and three primary classes for reception through Year 6 (ages ~5 to ~11).
+is a [new state school](https://www.universityprimaryschool.org.uk/) built to support the population growth in North West Cambridge. In 2024 it will have a school roll of 656 children across a single preschool class (for children turning 4 during that academic year) and three primary classes for reception through Year 6 (ages ~5 to ~11).
 
 [Bright Horizons Day Nursery](https://www.brighthorizons.co.uk/our-nurseries/eddington-nursery){:name='nursery'} is a day nursery for children from 3 months to 5 years. 80% of places are reserved for the children of students and staff of the University, and subject to their own [application process](https://www.childcare.admin.cam.ac.uk/application-process).
 
-[A State Secondary School](https://www.meridiantrust.co.uk/cmat-academies/darwin-green-academy/){:name='secondary-school'} with catchment area including Eddington and Darwin Green is planned to open in 2026. In the interim older kids are served by the distant [Impington Village College](https://ivc.tela.org.uk/) and [Chesterton Community College](https://ccc.tela.org.uk/).
+[A State Secondary School](https://www.meridiantrust.co.uk/cmat-academies/darwin-green-academy/){:name='secondary-school'} with catchment area including Eddington and Darwin Green is planned to open in 2026. In the interim older kids are served by the distant [Impington Village College](https://ivc.tela.org.uk/) and [Chesterton Community College](https://ccc.tela.org.uk/) though the local school is officially a feeder for neither.
 
 [Teddington Playgroup](https://eddington-cambridge.co.uk/whats-on/teddington){:name='teddington'} meets every Tuesday at 10am at Storey's Field Centre. There are toys and activities for babies, toddlers and pre-school kids - mostly unstructured play with some group singing at the end. Local health visitors regularly attend to offer advice and baby-weighing services, normally on the first Tuesday of the month.
 
@@ -163,7 +166,7 @@ is [Huntingdon Road Surgery](https://huntingdonroadsurgery.co.uk/) until such ti
 exists in Eddington, nor can residents use the [dispensary in Girton](https://www.huntingdonroadsurgery.co.uk/girton-dispensary) run by Huntingdon Road Surgery. The nearest pharmacy is on [Histon Road](https://rowlandspharmacy.co.uk/). Plans for a local pharmacy seem contingent on there being a doctor's surgery here first, at which point Sainsbury's have indicated they may add one in-store.
 
 [The Health Centre](#heath-centre){:name='health-centre'}
-is at at the south end of Eddington Avenue ([map](https://www.google.com/maps/@52.2170912,0.0882417,3a,42.9y,275.96h,96.26t/data=!3m6!1e1!3m4!1s3aYXVcbz4yZbBBHY_OlrTQ!2e0!7i16384!8i8192?entry=ttu)), near Sainsbury's car park entrance. The unit is empty and its interior unfinished. Negotiations with the NHS to find an occupant have been very slow. In early 2024 Portal said a proposal was being considered for a multi-use health facility - which means not exclusively a doctor's office but with GP provision among other health services. The proposal targeted an opening in mid 2025, we are told.
+is at the south end of Eddington Avenue ([map](https://www.google.com/maps/@52.2170912,0.0882417,3a,42.9y,275.96h,96.26t/data=!3m6!1e1!3m4!1s3aYXVcbz4yZbBBHY_OlrTQ!2e0!7i16384!8i8192?entry=ttu)), near Sainsbury's car park entrance. The unit is empty and its interior unfinished. Negotiations with the NHS to find an occupant have been very slow. In early 2024 Portal said a proposal was being considered for a multi-use health facility - which means not exclusively a doctor's office but with GP provision among other health services. The proposal targeted an opening in mid 2025, we are told.
 
 [Sports Fields and Cricket Pitch](){:name='sports'}
 
@@ -172,6 +175,9 @@ is at at the south end of Eddington Avenue ([map](https://www.google.com/maps/@5
 ## Shared spaces and estate management
 
 [Estate Service Charge](https://portal.eddington-cambridge.co.uk/estate-service-charge/){:name='estate-service-charge'}
+is a fee collected by Portal to fund the maintenance of shared spaces and facilities in Eddington. These include footpaths, cycleways, lighting, hard and soft landscaping, signage, play parks, the Square and non-Council-adopted roads (which is all roads at the time of writing in spring 2025). Areas not maintained under the estate service charge include the playing fields, pavilions, Storey's Field Centre, Brook Leys (funded by the University) and the heat network (funded through Core standing charge).
+
+All occupants of Eddington contribute to this fund proportionately by the internal floor area of their property. This includes private home owners; renters; key workers renting from Lodge; commercial entities (e.g. hotels and shops); and Girton college for Swirles Court. The budget is produced annually by Portal with the new year starting on the 1st of August.
 
 [Safety and Security](#safety){:name='safety'}
 remains a key concern for our residents. While Cambridge is a relatively low-crime city, bike thefts and antisocial behaviour are common. In Eddington it is likely because this is a quiet area with lots of public space and a late-opening, licensed supermarket. Residents are urged to [report all incidents](https://www.cambs.police.uk/report) and suspicious behaviour to the police - and by calling 999 if urgent e.g. a crime in progress. If you are unsure whether or not an event should be reported, use the [Cambs Police live chat](https://www.cambs.police.uk/police-forces/cambridgeshire-constabulary/areas/services/web-chat/) for advice. As a new borough of the city, sustained reporting of undesirable activity is needed to guide the allocation of police resources.
@@ -187,13 +193,20 @@ The University has its own [security service](https://www.security.admin.cam.ac.
 
 ## Local shops, amenities and facilities
 
-[Eddington Square](){:name='square'}
+[Eddington Square](#square){:name='square'}
+is a public plaza surrounded by commercial units and key worker accommodation in the center of Eddington. The shopfronts are leased by the University and are targeting a mix of offerings from local or small chains, with Sainsbury's/Argos being the early exception. Residents have historically bemoaned the number of empty units, though as of early 2025 the majority are occupied and all but two are in the process of being fitted out.
 
-[Hyatt Commercial Units](){:name='hyatt-units'}
+[Hyatt Commercial Units](#hyatt-units){:name='hyatt-units'}
+are the other commercial spaces in Eddington. Like the central gardens, these facilities are open to the public and include a hairdresser (Douce), coffee shop (Brew), restaurant (The Architect) and cocktail bar (Dutch).
 
 [Storey's Field Centre](https://www.storeysfieldcentre.org.uk/){:name='sfc'}
+is a community centre with meeting rooms, studio space and large performance space. This [architectural award-winning](https://www.architecture.com/awards-and-competitions-landing-page/awards/riba-regional-awards/riba-east-award-winners/2018/storeys-field-community-centre-and-nursery) building hosts regular community events, classes, meetings and shows, and is available for private hire. It was originally a joint venture between Cambridge University and Cambridge City Council but changed to being solely managed by the University in late 2024.
 
-[The local Post Office](https://www.postofficeviews.co.uk/national-consultation-team/west-cambridge-university-cb3-0us-1-011113/) is in West Hub on the West Cambridge site, just south of Eddington.
+[The local Post Office](https://www.postofficeviews.co.uk/national-consultation-team/west-cambridge-university-cb3-0us-1-011113/){:name='post-office'}
+is in West Hub on the West Cambridge site, just south of Eddington.
+
+[Brook Leys](#brook-leys){:name='brook-leys'}
+comprises eleven hectares of public parkland in the south east of Eddington. It contains a lake, walking paths, nature areas, public art and BBQ/picnic spots. The lake functions as a reservoir for surface water drainage from the site, though it is not yet used for its ultimate purpose of supplying grey water back to homes.
 
 ## Renting in the University's key worker accommodation
 
