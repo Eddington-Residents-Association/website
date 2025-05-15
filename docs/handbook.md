@@ -202,6 +202,9 @@ are the other commercial spaces in Eddington. Like the central gardens, these fa
 [Storey's Field Centre](https://www.storeysfieldcentre.org.uk/){:name='sfc'}
 is a community centre with meeting rooms, studio space and large performance space. This [architectural award-winning](https://www.architecture.com/awards-and-competitions-landing-page/awards/riba-regional-awards/riba-east-award-winners/2018/storeys-field-community-centre-and-nursery) building hosts regular community events, classes, meetings and shows, and is available for private hire. It was originally a joint venture between Cambridge University and Cambridge City Council but changed to being solely managed by the University in late 2024.
 
+[No Public Library](#library){:name='library'}
+currently exists in Eddington, nor are we aware of plans to build one. The [Mobile Library](https://www.cambridgeshire.gov.uk/residents/libraries-leisure-culture/libraries/visit-a-library/mobile-libraries/find-a-mobile-library-stop) stops outside Storey's Field Centre on the first Friday of the month from 9:30am to 10:40am. A community library building exists in Darwin Green near the Community Centre but does not currently contain any books.
+
 [The local Post Office](https://www.postofficeviews.co.uk/national-consultation-team/west-cambridge-university-cb3-0us-1-011113/){:name='post-office'}
 is in West Hub on the West Cambridge site, just south of Eddington.
 
