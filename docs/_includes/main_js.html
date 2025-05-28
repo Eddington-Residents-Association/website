@@ -254,7 +254,7 @@ function makeNewsletterHtml(events, start_date){
       }
       return `<span class="event" style="opacity: 0.7">\n`
           +`        ${short_time(x[START_TIME])}\n`
-          +`        <a href="${x[URL]}">${x[NAME]}</a>\n`
+          +`        <a href="https://www.eddingtonra.org${x[URL]}">${x[NAME]}</a>\n`
           +`        ${signup_icon(x)}\n`
           +`      </span>\n\n`
     }).join("\n")
