@@ -4,7 +4,7 @@
 {% assign weekly_events = site.weekly_events %}
 const WEEKLY_EVENT_DETAILS = {
 {% for event in weekly_events %}
-  {{ event.code }}: {
+  "{{ event.code }}": {
     title: "{{ event.title }}",
     day: "{{ event.day }}",
     start_time: "{{ event.start_time }}",
@@ -13,7 +13,7 @@ const WEEKLY_EVENT_DETAILS = {
     price: "{{ event.price }}",
     registration_required: "{{ event.registration_required }}",
     website: "{{ event.website }}",
-  }
+  },
 {% endfor %}
 }
 
@@ -233,6 +233,8 @@ function makeNewsletterHtml(events, start_date){
     }
 
     for(event of day_events){
+      // build features snippets for each event
+      if(!event[DESCRIPTION]){continue;}
       let d = event[DATE]
       let dateline = `${d.toLocaleString('default', {weekday: "short"})} ${d.toLocaleString('default', {day: "numeric", })}${date_th(d)} ${d.toLocaleString('default', {month: "long" })} ${time_range(event)} @&nbsp;${event[LOCATION]}`
       let link_text = event[NEEDS_SIGNUP] == "Yes" ? "sign up" : "see details"
@@ -240,15 +242,22 @@ function makeNewsletterHtml(events, start_date){
       features += `<div class="headline-event">\n<div>${dateline}</div>\n<h1>${event[NAME]}</h1>\n<div>${event[DESCRIPTION]}${link}</div>\n</div>\n\n\n`
     }
 
-    var events_html = day_events.map(
-      (x)=>`<span class="event" title="${x[DESCRIPTION].trim()}">\n`
-          +`        ${time_range(x)}\n`
-          +`        <a href="${our_url(x[DATE], x[NAME])}">${x[NAME]}</a>\n`
-          +`        ${x[LOCATION]}\n`
+    var events_html = day_events.map(function(x){
+      if(x[DESCRIPTION]){ // if it's a one-off event
+        return `<span class="event" title="${x[DESCRIPTION].trim()}">\n`
+            +`        ${time_range(x)}\n`
+            +`        <a href="${our_url(x[DATE], x[NAME])}">${x[NAME]}</a>\n`
+            +`        ${x[LOCATION]}\n`
+            +`        ${signup_icon(x)}\n`
+            +`        <span class="more-info-badge">info</span>\n`
+            +`      </span>\n\n`
+      }
+      return `<span class="event" style="opacity: 0.7">\n`
+          +`        ${short_time(x[START_TIME])}\n`
+          +`        <a href="${x[URL]}">${x[NAME]}</a>\n`
           +`        ${signup_icon(x)}\n`
-          +`        <span class="more-info-badge">info</span>\n`
           +`      </span>\n\n`
-      ).join("\n")
+    }).join("\n")
 
     html += `<tr class="day ${weekend_class}">
     <td class="date">${date_str}</td>
@@ -296,7 +305,7 @@ function makeInstagramText(events, start_date){
 
     output += day_events.map(
       (x)=>`📅 ${date_str}, ${time_range(x)} - ${x[NAME]} at ${x[LOCATION]}\n`
-          +`${x[DESCRIPTION].trim()}\n`
+          +`${x[DESCRIPTION]?x[DESCRIPTION].trim():""}\n`
           +`${price(x)} ${signup_notice(x)}\n`
           +`${x[URL]}\n\n`
       ).join("\n")

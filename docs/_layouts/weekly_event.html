@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+weekly from {{ page.start_time }} to {{ page.end_time }}
+{%- include separator.md -%}
+{{ page.location }}
+{%- include separator.md -%}
+{%- if page.price == 0-%}
+free
+{%- else -%}
+&pound;{{ page.price }}
+{%- endif %}
+
+<br>
+<br>
+
+{{ content }}
+
+<br>
+<br>
+
+<div style="font-style: italic; border: 1px solid #fec; background-color: #fec5; padding: 1em 2em; margin: 1em; border-radius: 0.5em;">
+  This page is a stub. If you are the event organiser and would like to update it please <a href="/contact-us">get in touch</a>
+</div>

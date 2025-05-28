@@ -52,7 +52,8 @@ with funding, volunteers and promotion.
     width: 75px;
   }
   #events_table .event {
-    margin-bottom: 1em;
+    display: inline-block;
+    margin-bottom: 0.5em;
   }
   #events_table .day.weekend {
     background-color: rgba(0, 0, 0, 0.05);
@@ -68,7 +69,7 @@ with funding, volunteers and promotion.
 <script>
 window.addEventListener("load", (event) => {
   getEventsData(function(one_off_events, weekly_events = []){
-    var now = new Date();
+    const now = new Date();
     var events = getEventsForPeriod(one_off_events, now, addMonths(now, 3))
     events = fillInWeeklyEvents(events, weekly_events, now, addMonths(now, 3))
     document.getElementById("events_html").innerHTML = makeEventsPageHtml(events, now);
@@ -131,7 +132,8 @@ function makeEventsPageHtml(events, start_date){
 
     let sep = `{%- include separator.md -%}`
     var events_html = day_events.map(
-      (x)=>`<a href="${x[URL]}">${x[NAME]}</a>\n${sep}`
+      (x)=>`<span class="event">`
+          +`<a href="${x[URL]}">${x[NAME]}</a>\n${sep}`
           + (x[DESCRIPTION] === false ? "<span class='weekly'>every week</span>" : "")
           +` ${time_range(x)}\n`
           +` ${sep} ${x[LOCATION]}\n\n`
@@ -142,6 +144,7 @@ function makeEventsPageHtml(events, start_date){
             + (x[URL] ? `  <a href="${x[URL]}">${info_link(x)}</a>`:"")
             +`<br>\n\n`
           : "\n<br/>\n")
+         + `</span>`
       ).join("\n")
 
     html += `<tr class="day ${weekend_class}">

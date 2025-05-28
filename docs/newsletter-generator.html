@@ -28,14 +28,17 @@ This page help generate the html needed for the monthly newsletter.
 <script>
 window.addEventListener("load", (event) => {
   getEventsData(function(one_off_events, weekly_events = []){
-    let $events_div = document.getElementById("events_html")
     const urlParams = new URLSearchParams(window.location.search);
-    skip = parseInt(urlParams.get('skip') ?? "1")
-    var events = getEventsForMonth(one_off_events, skip)
-    let event_table_rows = makeNewsletterHtml(events);
+    let skip = parseInt(urlParams.get('skip') ?? "1")
+    const now = new Date();
+    let month_events = getEventsForMonth(one_off_events, skip)
+    let all_events = fillInWeeklyEvents(month_events, weekly_events, addMonths(now, skip), addMonths(now, skip + 1))
+    let event_table_rows = makeNewsletterHtml(all_events);
+
+    let $events_div = document.getElementById("events_html")
     $events_div.getElementsByClassName("loading")[0].classList.add("d-none")
     $events_div.getElementsByClassName("newsletter_raw")[0].innerHTML = event_table_rows
-    $events_div.getElementsByClassName("instagram_raw")[0].innerHTML = makeInstagramText(events);
+    $events_div.getElementsByClassName("instagram_raw")[0].innerHTML = makeInstagramText(month_events);
     document.getElementById("event_table_content").innerHTML = event_table_rows
   });
 
