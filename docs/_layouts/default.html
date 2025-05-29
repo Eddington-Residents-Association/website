@@ -336,6 +336,8 @@
           { threshold: [1] }
         );
         observer.observe(el);
+
+        document.querySelectorAll(".do-prettify-times").forEach((x)=>x.innerHTML=prettify_times(x.innerHTML))
       });
     </script>
 

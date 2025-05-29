@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+{% include main_js.html %}
 
-weekly from {{ page.start_time }} to {{ page.end_time }}
+{{ page.day }}s <span class="do-prettify-times">{{ page.start_time }} to {{ page.end_time }}</span>
 {%- include separator.md -%}
 {{ page.location }}
 {%- include separator.md -%}
