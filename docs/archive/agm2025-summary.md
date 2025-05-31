@@ -1,6 +1,8 @@
 ---
 title: Summary of our Annual General Meeting 2025
-permalink: agm-summary
+permalink: archive/agm2025-summary
+redirect_from:
+  - agm-summary
 ---
 
 We were thrilled to have over 40 residents come to our 2025 AGM. Thanks to those who attended for their support and involvement in the discussions.

@@ -5,7 +5,8 @@
 [Twitter](https://x.com/EddingtonRA){:target="_blank"}<br>
 [Facebook](https://m.facebook.com/EddingtonRA){:target="_blank"}<br>
 [Walking Routes](/archive/routes) (archived)
-[2024 AGM Invite](/archive/agm2024) (archived)
+<br>
+AGMs [2025](/archive/agm2025), [2024](/archive/agm2024) (archived)
 
 </div>
 <div class="col-12 col-md-4" markdown="1">

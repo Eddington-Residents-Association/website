@@ -14,3 +14,5 @@ prev_dates:
   - 2020-10-26
 ---
 Our AGM takes place each year to host the election of our committee as well as reports from our Chair and Treasurer about what we did and what we spent on it. All residents are encouraged to attend; those who wish to stand for election are encouraged to [get in touch](/contact-us) in advance.
+
+Summaries: [2025](/archive/agm2025), [2024](/archive/agm2024)

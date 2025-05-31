@@ -119,6 +119,7 @@
       flex-direction: column;
       align-items: flex-start;
       z-index: 3;
+      pointer-events: none;
     }
     nav > a, #nav-show {
       display: block;
@@ -126,6 +127,7 @@
       color: white;
       background-color: var(--era-blue);
       margin-bottom: -0.5px;
+      pointer-events: all;
     }
     nav > a:hover, #nav-show:hover {
       background-color: var(--era-blue-darker);
@@ -354,7 +356,7 @@
       {% assign month = "now" | date:"%m" | plus:0 %}
       {% assign day = "now" | date:"%d" | plus:0 %}
       {% if month < 6 %}
-      <a href="/agm-summary">Summary of our 2025 AGM</a>
+      <a href="archive/agm2025-summary">Summary of our 2025 AGM</a>
       {% endif %}
       <a id="nav-hide"><label for="nav-toggle-input">hide menu</label></a>
     </nav>
