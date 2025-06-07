@@ -6,6 +6,9 @@ redirect_from:
   - /faq
 ---
 
+* Table of Contents
+{:toc}
+
 <i>
 A guide for residents of Eddington to the many places, processes, practices and policies that are uniquely relevant to this development. This remains a work-in-progress - please [contribute any corrections]({{ site.github.repository_url }}/tree/main/docs/{{ page.path }}){:target="_blank"}.
 </i>
@@ -212,6 +215,8 @@ is in West Hub on the West Cambridge site, just south of Eddington.
 comprises eleven hectares of public parkland in the south east of Eddington. It contains a lake, walking paths, nature areas, public art and BBQ/picnic spots. The lake functions as a reservoir for surface water drainage from the site, though it is not yet used for its ultimate purpose of supplying grey water back to homes.
 
 ## Renting in the University's key worker accommodation
+
+To qualify for [University Accommodation](https://www.accommodation.cam.ac.uk/FindAHome/), applicants must be a student or member of staff employed by the University of Cambridge, a Cambridge College or one of the Affiliated Institutions.
 
 ## Freehold and leasehold privately owned properties
 
