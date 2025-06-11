@@ -8,7 +8,7 @@ website: https://find-and-update.company-information.service.gov.uk/company/1063
 next_date:  
 #  - 2025-11-20  
 #  - 2025-09-25  
-  - 2025-06-05  
+  - 2025-06-19
 prev_dates:
   - 2025-03-27
   - 2025-01-28
