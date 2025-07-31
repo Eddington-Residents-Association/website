@@ -5,7 +5,7 @@ day: Tuesday
 start_time: "10:00"
 end_time: "11:30"
 location: Storey's Field Centre
-price: 0
+price: 1
 registration_required: False
 website:
 organiser_email:
