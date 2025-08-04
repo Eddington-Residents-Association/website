@@ -213,7 +213,22 @@ is in West Hub on the West Cambridge site, just south of Eddington.
 [Brook Leys](#brook-leys){:name='brook-leys'}
 comprises eleven hectares of public parkland in the south east of Eddington. It contains a lake, walking paths, nature areas, public art and BBQ/picnic spots. The lake functions as a reservoir for surface water drainage from the site, though it is not yet used for its ultimate purpose of supplying grey water back to homes.
 
-## Renting in the University's key worker accommodation
+## Renting in University-Owned Housing
+
+[The University of Cambridge owns over 750 properties at Eddington](#university-housing){:name='university-housing'}, the majority of which are leased to their staff under Key Worker Housing arrangements. There are also two blocks of apartments within the Rubicon development and a small number of houses which are leased on a market rental basis to University staff.
+
+All of these properties are managed by the University's Housing Services. Key workers' tenancy agreements are with Lodge Property Services Ltd (a wholly-owned subsidiary of the University) and tenancy support is provided by a single Housing Services team. Mears Facilities Management provide repairs and maintenance support to these properties, including common areas within apartment blocks. Mears are also responsible for things like cleaning and window cleaning for all internal shared spaces within University-owned apartment blocks.
+
+At the commencement of their tenancy, University residents are provided with a move-in pack which details how to report any faults they may experience, and how to elevate any issues to Housing Services if faults are not rectified within an acceptable timeframe or to the correct standard. Housing Services is keen to be informed of such instances to help drive performance improvement.
+
+<details markdown="1">
+<summary>How to report faults and get help with a University tenancy</summary>
+
+Any apartment or building faults should be reported to Mears in the first instance and University residents can contact the 24-hour helpdesk by calling 0333 207 9501, by emailing [portal.helpdesk@mearsgroup.co.uk](mailto:portal.helpdesk@mearsgroup.co.uk), or by reporting a fault on the ["Something Wrong" tab](https://portal.resi-sense.co.uk/customer-service-team/report-a-defect/) on the Portal Website (log on details provided at the tenancy commencement). Any issues arising in the external area of Eddington Estate, for example a broken underground bin or damaged streetlight, may also be reported through these means.
+
+Housing Services can be contacted at [universityresidences@admin.cam.ac.uk](universityresidences@admin.cam.ac.uk) and further information can be found at the Accommodation Service website. Any issues in respect to the wider, external Eddington Estate may also be elevated to Portal Estate Management at [portal@eddington-cambridge.co.uk](portal@eddington-cambridge.co.uk).
+
+</details>
 
 ## Freehold and leasehold privately owned properties
 
