@@ -55,6 +55,9 @@ with funding, volunteers and promotion.
     display: inline-block;
     margin-bottom: 0.5em;
   }
+  #events_table .event > .time-and-place {
+    opacity: 0.65;
+  }
   #events_table .day.weekend {
     background-color: rgba(0, 0, 0, 0.05);
   }
@@ -134,17 +137,20 @@ function makeEventsPageHtml(events, start_date){
     var events_html = day_events.map(
       (x)=>`<span class="event">`
           +`<a href="${x[URL]}">${x[NAME]}</a>\n${sep}`
-          + (x[DESCRIPTION] === false ? "<span class='weekly'>every week</span>" : "")
+          //+ (x[DESCRIPTION] === false ? "<span class='weekly'>every week</span>" : "")
+          // removed as not all events can be well-described as "weekly", eg. fortnightly
+          +` <span class="time-and-place">\n`
           +` ${time_range(x)}\n`
           +` ${sep} ${x[LOCATION]}\n\n`
           +` ${sep} ${price(x)}\n`
+          +` </span>\n`
           + (x[DESCRIPTION] !== false ?
             ` &nbsp; &nbsp; ${add_to_calendar_button(x)}\n<br/>\n`
             +` ${x[DESCRIPTION].trim()}`
             + (x[URL] ? `  <a href="${x[URL]}">${info_link(x)}</a>`:"")
             +`<br>\n\n`
           : "\n<br/>\n")
-         + `</span>`
+         + ` </span>`
       ).join("\n")
 
     html += `<tr class="day ${weekend_class}">

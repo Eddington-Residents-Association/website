@@ -160,9 +160,12 @@ function fillInWeeklyEvents(events, weekly_events, start_date, end_date){
 
   // loop through the row for each event in turn, turning any date range strings (like "1st-7th, 15th-21st")
   // into a list of date-pairs
+  let filled_in_event_codes = []
   const first_date_cell_num = Math.min(...Object.keys(cell_num_to_month))
   for(const row of weekly_events.slice(1)){
     let event_code = row[1]
+    // keep track of these codes so we only show events which have their weeks_off filled in
+    filled_in_event_codes.push(event_code)
     if(!(event_code in weeks_off)){ continue }
     for(const cell_num in row){
       if(cell_num < first_date_cell_num){ continue }
@@ -181,6 +184,8 @@ function fillInWeeklyEvents(events, weekly_events, start_date, end_date){
   // add weekly events to the `events` array on the appropriate day, only if it's not during a week off
   for(const [event_code, event] of Object.entries(WEEKLY_EVENT_DETAILS)){
     console.log(event)
+    // don't add events to the calendar unless they have their weeks-off sheet filled in
+    if(!filled_in_event_codes.includes(event_code)) continue;
     for(var date = start_date; date < end_date; date = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1)){
       if(event.day == date.toLocaleString('default', {weekday: "long"})){
         let is_week_off = weeks_off[event_code].reduce((result, item)=>result || (date >= item[0] && date <= item[1]), false)
