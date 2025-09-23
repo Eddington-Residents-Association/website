@@ -6,6 +6,9 @@ redirect_from:
   - /faq
 ---
 
+* Table of Contents
+{:toc}
+
 <i>
 A guide for residents of Eddington to the many places, processes, practices and policies that are uniquely relevant to this development. This remains a work-in-progress - please [contribute any corrections]({{ site.github.repository_url }}/tree/main/docs/{{ page.path }}){:target="_blank"}.
 </i>
@@ -229,6 +232,8 @@ Any apartment or building faults should be reported to Mears in the first instan
 Housing Services can be contacted at [universityresidences@admin.cam.ac.uk](universityresidences@admin.cam.ac.uk) and further information can be found at the Accommodation Service website. Any issues in respect to the wider, external Eddington Estate may also be elevated to Portal Estate Management at [portal@eddington-cambridge.co.uk](portal@eddington-cambridge.co.uk).
 
 </details>
+
+To qualify for [University Accommodation](https://www.accommodation.cam.ac.uk/FindAHome/), applicants must be a student or member of staff employed by the University of Cambridge, a Cambridge College or one of the Affiliated Institutions.
 
 ## Freehold and leasehold privately owned properties
 
