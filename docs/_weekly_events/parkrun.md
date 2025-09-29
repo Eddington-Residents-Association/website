@@ -4,7 +4,7 @@ code: parkrun
 day: Saturday
 start_time: "09:00"
 end_time: "10:00"
-location: Cricket Pitch
+location: Brook Leys
 price: 0
 registration_required: True
 website: https://www.parkrun.org.uk/storeysfield/
