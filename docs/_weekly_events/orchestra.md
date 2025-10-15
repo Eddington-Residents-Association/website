@@ -8,7 +8,7 @@ location: Storey's Field Centre
 price: 0
 registration_required: True
 website: https://docs.google.com/forms/d/e/1FAIpQLScibxyG5RsknEpWAkFwB3Zf0YhXW9FnrOTDbWqFaYU320hYCA/viewform
-organiser_email:
+organiser_email: eddingtonorchestra@gmail.com
 ---
 
 Formed in the autumn of 2024 with 20 musicians aged 8 to 74, we practice most Sundays from 3pm-4:30pm. Come join us! Entry is free.

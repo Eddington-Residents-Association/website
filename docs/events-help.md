@@ -13,14 +13,17 @@ you to:
 * Recruit volunteers
 * Promote the event by email, online and in print
 
-We might not be able to help with all of the above for a proposed event. Events are more likely to
-be good candidates for ERA support and promotion the more they fulfill the following criteria:
+<a name="support_criteria"></a>
 
-* The event is organised by an Eddington resident and open to all residents
-* The event is solely or primarily for the benefit of Eddington residents
-* The event takes place within a short walk of Storey’s Field Centre
-* The event is free or cheap compared to similar alternatives
-* The event is novel, i.e. not a regularly scheduled event
+We might not be able to help with all of the above for a proposed event. Events are more likely to
+be good candidates for ERA support and promotion the more they fulfil the following criteria:
+
+* Open to all residents
+* Solely or primarily for the benefit of Eddington residents
+* Takes place within a short walk of Eddington Square
+* Free or cheap compared to similar alternatives
+* Organised by an Eddington resident
+* Novel
 
 Examples of events which the ERA have supported include: The Jubilee Picnic, Eddington Eats,
 Film Club, Quiz Night, Diwali Celebrations.
@@ -32,4 +35,4 @@ and on our
 [media](https://x.com/EddingtonRA)
 [accounts](https://m.facebook.com/EddingtonRA).
 
-<a class="btn btn-primary fs-3" href="https://forms.gle/paW22ugLwrbk4Ccb8" target="_BLANK">Submit your event</a>
+<a class="btn btn-primary fs-3" href="/events/submit" target="_BLANK">Submit your event</a>
