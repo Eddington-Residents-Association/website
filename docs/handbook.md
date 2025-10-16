@@ -185,12 +185,18 @@ All occupants of Eddington contribute to this fund proportionately by the intern
 remains a key concern for our residents. While Cambridge is a relatively low-crime city, bike thefts and antisocial behaviour are common. In Eddington it is likely because this is a quiet area with lots of public space and a late-opening, licensed supermarket. Residents are urged to [report all incidents](https://www.cambs.police.uk/report) and suspicious behaviour to the police - and by calling 999 if urgent e.g. a crime in progress. If you are unsure whether or not an event should be reported, use the [Cambs Police live chat](https://www.cambs.police.uk/police-forces/cambridgeshire-constabulary/areas/services/web-chat/) for advice. As a new borough of the city, sustained reporting of undesirable activity is needed to guide the allocation of police resources.
 
 <details markdown="1">
+<summary>Meet our local Police Constable</summary>
+
+<img alt="PC Emily-Jayne Matthews" src="/images/handbook/pc-ej-matthews.png" style="float: left; width: 100%; max-width: 400px; margin: 0 1em 1em 0;"/> PC Emily-Jayne Matthews is our local member of Cambridge Constabulary's [Neighbourhood Policing Team](https://www.cambs.police.uk/area/your-area/cambridgeshire/cambridge-city/cambridge-city-centre/about-us/our-priorities). She runs occasional "Coffee with a Cop" sessions here in Eddington and is happy to chat about anything police-related. You can reach her at [emily-jayne.matthews@cambs.police.uk](mailto:emily-jayne.matthews@cambs.police.uk), but please don't use this to report specific crimes or incidents - one of [the above methods](#safety) is better.
+
+</details>
+
+<details markdown="1" style="clear:both">
 <summary>See how Portal, Encore and the University fit into local safety planning</summary>
 
 [Portal](#portal) is responsible for the physical security of some areas of site, including commercial units, University buildings and communal bike sheds. [Encore](#encore) is similarly in charge of shared spaces in leasehold properties like garages and stairwells. However, residents are encouraged to consider these areas public when making security decisions as it is difficult to prevent criminals from gaining access to such shared spaces.
 
 The University has its own [security service](https://www.security.admin.cam.ac.uk/) as well as CCTV monitoring in the central area of Eddington, which they plan to extend to cover entrance/exit routes. They have a published [security policy](https://eddington-cambridge.co.uk/wp-content/uploads/Security-Policy-Final.pdf) and [antisocial behaviour policy](https://eddington-cambridge.co.uk/wp-content/uploads/Anti-Social-Behaviour-Policy-Final.pdf) for the area.
-
 </details>
 
 ## Local shops, amenities and facilities
