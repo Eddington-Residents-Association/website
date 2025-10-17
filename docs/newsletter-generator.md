@@ -3,26 +3,91 @@ title: Newsletter Content Generation
 permalink: newsletter/generator
 ---
 
-<p>
 This page help generate the html needed for the monthly newsletter.
 <a class="btn btn-primary" href="?skip=0">current month</a>
 <a class="btn btn-primary" href="?skip=1">next month</a>
-</p>
 
+<details markdown="1">
+<summary>How to use this newsletter generator and reformatter</summary>
+
+##### Compile and check the email
+
+- Mailchimp &rarr; Campaigns &rarr; "Replicate" (under "View Report" dropdown menu) the most recent "... Events via Portal" campaign
+- Rename to correct Year, Month and remove "(copy 01)" from title
+- Confirm "To" is "1 recipient" (your, or whoever is testing this for you)
+- Edit subject's emoji, month, year
+- Edit "Email Link" to remove junky suffix hash, simplify like "2025-june-events-general"
+- Click "Edit Design" on preview panel to right
+- approve submitted events on [form responses sheet](https://docs.google.com/spreadsheets/d/1hZmkaFuq3EB8l9gEqOi_B-mF8KJcLsT9L5W76Fpj37w/edit?resourcekey=&gid=997144316#gid=997144316&fvid=247275239) (private)
+- scoop up non-submitted items from other newsletters, [Eddington marketing site](https://eddington-cambridge.co.uk/whats-on), [Storey's Field Centre](https://www.storeysfieldcentre.org.uk/)
+- get html from this page for full calendar and feature snippets of your choice.
+- add Portal notices, provided in advance by Irene if you remind her.
+- Send Mailchimp's "Preview" to yourself and then forward to
+<span title="Iain, Graham, Pieter, Lizzie, James and Elena">a hardy crew of eagle-eyed testers</span>.
+
+##### Compile the email
+
+- Send the campaign to yourself only (not via Mailchimp's "Preview" - the links in those are temporary)
+- Get the raw version of this email (in Gmail hit "..." top right and "Show Original", Ctrl+a, Ctrl+c the whole of the new window)
+- Paste into "Raw mailchimp output to Resisense input re-formatter" below
+- Hit "Reformat" button then copy output from second box
+- Paste into text editor and save as "newsletter-[month]-test.txt"
+- Email to Irene @ Portal Irene.Wong@admin.cam.ac.uk and ask her to do a test-send via ResiSense,
+attaching the .txt file you just saved and specifying the subject "TEST [The actual subject from Mailchimp]"
+and specifying to send only to you.
+- If there's an issue with the message when Irene sends it to you through ResiSense (or you want to
+edit or add content) you have to do it in this file, else start again from the top of this list.
+- If the email from Irene looks good, ask her to do a general send, attaching "newsletter-[month]-final.txt",
+specifying the non-test subject and that it's to go to everyone
+
+##### Prepare the non-Portal version of the email
+
+- Replicate the above campaign
+- Rename it to "[Year] [Month] Events via Mailchimp"
+- Change the "To" section to "Segments" &rarr; "Newsletter Subscribers"
+- Edit "Email Link" to remove junky suffix hash, simplify like "[YEAR]-[MONTH]-events-subscribers"
+- Click "Edit Design"
+- Replace the contents of the top grey box with the following raw html (hit "<>" button to edit):
+
+<textarea class="w-100">
+<strong>Receiving&nbsp;this newsletter twice?</strong>&nbsp;<a href="https://eddingtonra.us5.list-manage.com/profile?u=77028e27d8594eefd09bbb473&id=4e3157944d&e=[UNIQID]&c=b186bb4731" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000000;font-weight: normal;text-decoration: underline;">Update your preferences</a>&nbsp;to "All messages except Monthly Newsletter" to keep in touch but avoid the duplicate emails.
+</textarea>
+
+- Delete the grey header bar for Portal Notices and the following box section where the notices
+live (these are not relevant to non-Portal subscribers)
+- Once Irene has sent out the email to all residents on the Resisense list, send this second campaign to the ERA Mailchimp subscribers.
+
+</details>
+
+
+
+### The raw html content
 <div id="events_html">
   <i class="loading">Loading events....</i>
-  Newsletter html:
-  <textarea class="newsletter_raw d-inline-block"></textarea>
+  <br>
+  Newsletter main calendar table html - replace the entire calendar table html with this html
+  <br>
+  <textarea class="calendar_html d-inline-block w-100"></textarea>
+  <br>
+  Newsletter featured events snippets - copy out three of these and use each to replace the html in
+  one of the top features (you have to find your own picture!)
+  <br>
+  <textarea class="feature_snippets_html d-inline-block w-100"></textarea>
+  <br>
   Instagram Text:
-  <textarea class="instagram_raw d-inline-block"></textarea>
+  <br>
+  <textarea class="instagram_text d-inline-block w-100"></textarea>
 </div>
 
-<h3>Raw mailchimp output to Resisense input re-formatter:</h3>
-<textarea id="raw-mailchimp-html">
-</textarea>
-<button id="do-mailchimp-reformat">Reformat</button>
-<textarea id="reformatted-mailchimp-html">
-</textarea>
+<br>
+<h3>Raw MailChimp output to Resisense input re-formatter:</h3>
+<p>
+  Copy the full original email (in Gmail: "..." &rarr;  "Show Original" &rarr;  ctrl+a) and paste into the first box
+</p>
+
+<textarea id="raw-mailchimp-html" class="display-inline-block">Paste original email text here</textarea>
+<button id="do-mailchimp-reformat" class="btn btn-primary display-inline-block">&rarr; Push this button to reformat &rarr;</button>
+<textarea id="reformatted-mailchimp-html" class="display-inline-block">(results will appear here)</textarea>
 
 {% include main_js.html %}
 <script>
@@ -31,14 +96,15 @@ window.addEventListener("load", (event) => {
     const urlParams = new URLSearchParams(window.location.search);
     let skip = parseInt(urlParams.get('skip') ?? "1")
     const now = new Date();
-    let month_events = getEventsForMonth(one_off_events, skip)
-    let all_events = fillInWeeklyEvents(month_events, weekly_events, addMonths(now, skip), addMonths(now, skip + 1))
+    let month_events = getEventsForNewsletter(one_off_events, skip)
+    let all_events = fillInWeeklyEvents(month_events, weekly_events, addMonths(now, skip), addMonths(now, skip + 2))
     let event_table_rows = makeNewsletterHtml(all_events);
 
     let $events_div = document.getElementById("events_html")
     $events_div.getElementsByClassName("loading")[0].classList.add("d-none")
-    $events_div.getElementsByClassName("newsletter_raw")[0].innerHTML = event_table_rows
-    $events_div.getElementsByClassName("instagram_raw")[0].innerHTML = makeInstagramText(month_events);
+    $events_div.getElementsByClassName("calendar_html")[0].innerHTML = event_table_rows
+    $events_div.getElementsByClassName("feature_snippets_html")[0].innerHTML =  makeNewsletterHtml(all_events, addMonths(now, skip), true)
+    $events_div.getElementsByClassName("instagram_text")[0].innerHTML = makeInstagramText(month_events);
     document.getElementById("event_table_content").innerHTML = event_table_rows
   });
 
@@ -68,15 +134,14 @@ function convertPrintedQuotedToPlainText(printedQuoted) {
                                });
 
 }
-
 </script>
 
-
+<br>
+<h3>Email preview</h3>
 <p>
 Here's a preview of how that looks in an old email design. Note that the css is inlined by MailChimp
 specifics of the layout and style may be misleading.
 </p>
-
 
 <style>
 .headline-event > * {

@@ -12,7 +12,10 @@ and [Facebook](https://m.facebook.com/EddingtonRA) and
 sign up for [our newsletter](/newsletter) to receive a monthly
 digest to your inbox.
 
-Want to see your event on this list? Find out [how we can help](/events/help-for-your-event)
+
+<a class="btn btn-primary fs-5" href="/events/submit">Add your event</a>
+or
+[find out how we can help](/events/help-for-your-event)
 with funding, volunteers and promotion.
 
 <div id="events_html">

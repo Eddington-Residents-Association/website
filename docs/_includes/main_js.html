@@ -110,11 +110,12 @@ function addMonths(date, n){
   return new Date(date.getFullYear(), date.getMonth() + (n ?? 0), 1)
 }
 
-function getEventsForMonth(sheet_data, month_skip){
-  var now = new Date();
-  var month_skip = month_skip ?? 1;
+function getEventsForNewsletter(sheet_data, month_skip){
+  // returns two months' worth of events, skipping `month_skip` months from current month
+  var now = new Date()
+  var month_skip = month_skip ?? 1
   var month_start = addMonths(now, month_skip)
-  var month_end = addMonths(now, month_skip + 1);
+  var month_end = addMonths(now, month_skip + 2)
   return getEventsForPeriod(sheet_data, month_start, month_end)
 }
 
@@ -183,7 +184,6 @@ function fillInWeeklyEvents(events, weekly_events, start_date, end_date){
 
   // add weekly events to the `events` array on the appropriate day, only if it's not during a week off
   for(const [event_code, event] of Object.entries(WEEKLY_EVENT_DETAILS)){
-    console.log(event)
     // don't add events to the calendar unless they have their weeks-off sheet filled in
     if(!filled_in_event_codes.includes(event_code)) continue;
     for(var date = start_date; date < end_date; date = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1)){
@@ -198,7 +198,7 @@ function fillInWeeklyEvents(events, weekly_events, start_date, end_date){
   return events
 }
 
-function makeNewsletterHtml(events, start_date){
+function makeNewsletterHtml(events, start_date, return_feature_snippets=false){
   function fmt(date, options){
     return date.toLocaleString('default', options)
   }
@@ -208,7 +208,7 @@ function makeNewsletterHtml(events, start_date){
     html += "<tr><td style='padding: 5em 10em; font-style: italic;'>No events found</td></tr></tbody></table>"
     return html
   }
-  var features = ""
+  var feature_snippets = ""
   var first_event_date = new Date(Math.min(...events.map((x)=>x[DATE])));
   var last_event_date = new Date(Math.max(...events.map((x)=>x[DATE])));
   var prev_date = addMonths(first_event_date, -1);
@@ -216,7 +216,7 @@ function makeNewsletterHtml(events, start_date){
     var end_date = addMonths(last_event_date, 1)
   }else{
     var start_date = addMonths(first_event_date, 0)
-    var end_date = addMonths(first_event_date, 1)
+    var end_date = addMonths(first_event_date, 2)
   }
   console.log(`making html for ${events.length} events between ${first_event_date} and ${last_event_date}`);
   for(var date = start_date; date < end_date; date = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1)){
@@ -243,8 +243,8 @@ function makeNewsletterHtml(events, start_date){
       let d = event[DATE]
       let dateline = `${d.toLocaleString('default', {weekday: "short"})} ${d.toLocaleString('default', {day: "numeric", })}${date_th(d)} ${d.toLocaleString('default', {month: "long" })} ${time_range(event)} @&nbsp;${event[LOCATION]}`
       let link_text = event[NEEDS_SIGNUP] == "Yes" ? "sign up" : "see details"
-      let link = `\n<a href="${event[URL]}">${link_text}</a>`
-      features += `<div class="headline-event">\n<div>${dateline}</div>\n<h1>${event[NAME]}</h1>\n<div>${event[DESCRIPTION]}${link}</div>\n</div>\n\n\n`
+      let link = event[URL] ? `\n<a href="${event[URL]}">${link_text}</a>` : ""
+      feature_snippets += `<div class="headline-event">\n<div>${dateline}</div>\n<h1>${event[NAME]}</h1>\n<div>${event[DESCRIPTION]}${link}</div>\n</div>\n\n\n`
     }
 
     var events_html = day_events.map(function(x){
@@ -275,8 +275,7 @@ function makeNewsletterHtml(events, start_date){
   }
   html += `  </tbody>\n</table>`
 
-  console.log(features)
-  return html
+  return return_feature_snippets ? feature_snippets : html
 }
 
 function makeInstagramText(events, start_date){
