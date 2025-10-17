@@ -22,6 +22,24 @@ with funding, volunteers and promotion.
 
 {% include main_js.html %}
 <style>
+
+  @media (max-width: 900px) {
+    #events_table {
+      margin-left: -2em;
+      margin-right: -2em;
+    }
+    #events_table .month th {
+      padding-left: 2em;
+    }
+    add-to-calendar-button {
+      position: absolute !important;
+      top: 0;
+      right: -2em;
+    }
+    main.events {
+      overflow: visible
+    }
+  }
   #events_table {
     margin-bottom: 20lvh;
   }
@@ -52,6 +70,7 @@ with funding, volunteers and promotion.
     width: 75px;
   }
   #events_table .event {
+    position: relative;
     display: inline-block;
     margin-bottom: 0.5em;
   }
