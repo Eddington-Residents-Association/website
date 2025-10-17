@@ -10,6 +10,17 @@ redirect_from:
 A guide for residents of Eddington to the many places, processes, practices and policies that are uniquely relevant to this development. This remains a work-in-progress - please [contribute any corrections]({{ site.github.repository_url }}/tree/main/docs/{{ page.path }}){:target="_blank"}.
 </i>
 
+<style>
+@media (min-width: 800px) {
+  #markdown-toc {
+    columns: 2;
+  }
+}
+</style>
+
+* Table of contents placeholder
+{:toc}
+
 ## Who does what and how to get help
 
 There is a jumble of organisations each taking responsibility for some parts of Eddington. This can make it tricky for residents to get the help they need - particularly for those new to the area, city or country.

@@ -35,4 +35,4 @@ and on our
 [media](https://x.com/EddingtonRA)
 [accounts](https://m.facebook.com/EddingtonRA).
 
-<a class="btn btn-primary fs-3" href="/events/submit" target="_BLANK">Submit your event</a>
+<a class="btn btn-primary fs-3" href="/events/submit">Submit your event</a>
