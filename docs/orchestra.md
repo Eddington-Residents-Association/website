@@ -9,5 +9,4 @@ Formed in the autumn of 2024 with 20 musicians aged 8 to 74, we practice most Su
 
 Contact us at [eddingtonorchestra@gmail.com](mailto:eddingtonorchestra@gmail.com) or register your interest [here](https://forms.gle/7ehZfGo7EEJRr5vQA).
 
-
 *Backed by the ERA and Clarion Futures*
