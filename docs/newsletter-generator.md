@@ -50,7 +50,9 @@ specifying the non-test subject and that it's to go to everyone
 - Replace the contents of the top grey box with the following raw html (hit "<>" button to edit):
 
 <textarea class="w-100">
-<strong>Receiving&nbsp;this newsletter twice?</strong>&nbsp;<a href="https://eddingtonra.us5.list-manage.com/profile?u=77028e27d8594eefd09bbb473&id=4e3157944d&e=[UNIQID]&c=b186bb4731" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000000;font-weight: normal;text-decoration: underline;">Update your preferences</a>&nbsp;to "All messages except Monthly Newsletter" to keep in touch but avoid the duplicate emails.
+<div class="blue-links" style="text-align: left;">
+<strong>Receiving this newsletter twice?</strong> <a href="https://eddingtonra.us5.list-manage.com/profile?u=77028e27d8594eefd09bbb473&id=4e3157944d&e=[UNIQID]&c=b186bb4731" target="_blank" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000000;font-weight: normal;text-decoration: underline;">Update your preferences</a> to "All messages except Monthly Newsletter" to keep in touch but avoid the duplicate emails.
+</div>
 </textarea>
 
 - Delete the grey header bar for Portal Notices and the following box section where the notices
