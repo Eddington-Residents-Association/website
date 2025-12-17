@@ -32,7 +32,7 @@ While the ERA is unlikely to be the best first port of call, if you have difficu
 
 [Portal Estate Management](https://portal.eddington-cambridge.co.uk/customer-service-team/report-a-defect/){:name='portal'}
 is a wrapper-company owned by the University which deals with issues relating to most shared public spaces in Eddington. This includes all roads, pavements, cycle paths and hard and soft landscaping.
-They are responsible for collecting the [Estate Service Charge](#estate-management-charge) and spending it on local maintenance, improvement and contingency planning. Though they subcontract the billing to [Vital](#vital) and the execution of estate management tasks to [Mears](#mears).
+They are responsible for collecting the [Estate Service Charge](#estate-management-charge) and spending it on local maintenance, improvement and contingency planning. Though they subcontract the billing to [Vital](#vital) and the execution of estate management tasks to [GSH](#GSH).
 Portal can sometimes be a useful first contact for services commissioned by other parties below, such as bin collections, playing fields, play parks and questions around covenants.
 
 [Lodge Property Services](#lodge){:name='lodge'}
@@ -44,11 +44,20 @@ is a [wrapper-company](https://find-and-update.company-information.service.gov.u
 [Vital Energi](#vital){:name='vital'}
 are an [energy management company](https://www.vitalenergi.co.uk/) that run our energy centre and maintain our local heat network infrastructure as the current contract holder under Core. They also provide customer billing services to Portal and Core, for Estate Service Charge and heat usage respectively.
 
+[GSH](#GSH){:name='GSH'}
+are a UK-based international provider of [integrated facilities management](https://www.gshgroup.com/locations/united-kingdom/). They provide estate management services around Eddington as the current contract holder under Portal. They also do property repairs and maintenance for the University Housing Service, and both of these work packages form part of a broader contract with the University outside of Eddington. They replaced [Mears](#mears) and [Nurture](#nurture) in December 2025.
+
+[Giles Landscapes & Management](#giles){:name='giles'}
+(GLM) are a [grounds maintenance company](https://gileslandscapes.co.uk/) subcontracted by [GSH](#GSH) to look after communal planting and hard landscaping.
+
+[Chequers](#chequers){:name='chequers'}
+are a [facilities management company](https://chequerscontracts.co.uk/) subcontracted by [GSH](#GSH) to look after soft services elements including caretaker duties.
+
 [Mears Group](#mears){:name='mears'}
-are a national [housing services operator](https://www.mearsgroup.co.uk/). They provide estate management services around Eddington as the current contract holder under Portal. They also do property management for Lodge, and both of these work packages form part of a broader contract with the University outside of Eddington.
+are a national [housing services operator](https://www.mearsgroup.co.uk/). As of December 2025 they no longer provide services in Eddington. ~~They provide estate management services around Eddington as the current contract holder under Portal. They also do property management for Lodge, and both of these work packages form part of a broader contract with the University outside of Eddington.~~
 
 [Nurture Landscapes](#nurture){:name='nurture'}
-are a [grounds maintenance company](https://www.nurture-group.co.uk/) subcontracted by [Mears](#mears) to look after communal planting and hard landscaping.
+are a [grounds maintenance company](https://www.nurture-group.co.uk/) As of December 2025 they no longer provide services in Eddington. ~~subcontracted by [Mears](#mears) to look after communal planting and hard landscaping.~~
 
 [Elite Parking Management](#elite){:name='elite'}
 are a [parking management company](https://eliteparkingmanagement.com/) subcontracted by [Mears](#mears) to handle parking enforcement and fines.
