@@ -184,6 +184,9 @@ is a [new state school](https://www.universityprimaryschool.org.uk/) built to su
 [Our Local Doctor's Surgery](#doctor){:name='doctor'}
 is [Huntingdon Road Surgery](https://huntingdonroadsurgery.co.uk/) until such time as the [health centre](#health-centre) is occupied. It also has a [satellite surgery](https://www.nhs.uk/services/gp-surgery/girton-branch-surgery/D81002001) in Girton.
 
+[The Closest Dental Practice](#dentist){:name='dentist'}
+is [Girton Dental Practice](https://girtondentalpractice.co.uk/), a private dentist providing primary dental care in the local area. Services include routine check ups, dental fillings and managing gum disease as well as urgent out of hours appointments for dental emergencies.
+
 [No Pharmacy](#pharmacy){:name='pharmacy'}
 exists in Eddington, nor can residents use the [dispensary in Girton](https://www.huntingdonroadsurgery.co.uk/girton-dispensary) run by Huntingdon Road Surgery. The nearest pharmacy is on [Histon Road](https://rowlandspharmacy.co.uk/). Plans for a local pharmacy seem contingent on there being a doctor's surgery here first, at which point Sainsbury's have indicated they may add one in-store.
 
