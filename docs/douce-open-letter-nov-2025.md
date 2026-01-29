@@ -27,6 +27,7 @@ _Edit on 21<sup>st</sup> Nov - a minority of early signatories appear to mistake
 
 _Edit on 5<sup>th</sup> Dec - This letter has been sent to the University and to Douce. Their responses will be published here in due course._
 
+_Edit on 28<sup>th</sup> Jan - Responses have been received from both [Douce](#:~:text=Comment from Douce) and the [University](#:~:text=Response from the University of Cambridge)_
 
 ## The Open Letter
 ---
@@ -44,8 +45,8 @@ We ask that the University does everything in its power to mitigate the wasted p
 
 ## Signatories
 
-<details open>
-<summary>229 people have signed this open letter as of 5<sup>th</sup> December</summary>
+<details>
+<summary>244 people have signed this open letter as of 29<sup>th</sup> January 2026</summary>
 
 Abeera,
 Aggie Osina,
@@ -189,11 +190,13 @@ Will,
 Winnie Yu,
 Zayd Alansari,
 Zorka Eisenmann
- + 87 private signatories.
+ + over 100 private signatories.
 </details>
 
 
-<details>
+<button class="btn btn-light fs-5" style="text-decoration: line-through!important;" title="Letter is closed to further signatories">Add your name to the letter</button>
+
+<details style="display:none;">
 <summary class="btn btn-primary fs-5">Add your name to the letter</summary>
 
 <iframe id="petition-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdcDH8BwNkmCHajtx2kzA6yfOqEKDAJQDs30tHoY-EULgnbOQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" height="500px">Loading…</iframe>
@@ -336,10 +339,27 @@ We love visiting the open bar which has ample space for children to run around a
 </div>
 
 
-## Comment from Douce Ltd.
+## Response from the University of Cambridge - 14th January 2026
 
-_Douce has been invited to comment_
+Thank you for sharing the open letter.
 
-## Response from the University of Cambridge
+The University recognises the important contribution that Douce Heights had during its tenure and their popularity with the local community. We have been equally disappointed that they and others were asked to vacate. While we understand the strength of feeling reflected in the petition, the decision about Douce Heights was with the hotel operator and the University cannot change this.
 
-_The University has been invited to respond_
+We are currently in active discussions with prospective occupiers and remain committed to supporting local businesses as part of our retail strategy. These conversations are ongoing, and while we cannot comment on specific lease negotiations, we are working collaboratively to explore solutions that meet both community aspirations and deliver a vibrant neighbourhood, balancing viability and the strategic objectives of Eddington.
+
+We appreciate the constructive spirit in which this petition has been raised. As always, we will keep the Eddington community updated with the latest developments when details are confirmed.
+
+
+## Comment from Douce Ltd. - 25 January 2026
+
+The past twelve months have been incredibly difficult for our business, but the community’s  overwhelming support has made them much easier.
+
+We will take the last eighteen months of running douce heights as a tremendous learning curve and something we can springboard off into our next venture.
+
+A special thanks to the university. While this has been beyond their control, they have provided support in many ways during the terrible situation our landlords have put us through.
+
+Whilst we pursue the opportunity of a new venture for the community, we’d like to thank everyone for their patience whilst we aim to deliver something that is unique and beneficial to Eddington, neighbouring villages and beyond.
+
+We hope to see you at douce for events, coffee, pints soon whilst we work hard on the next chapter.
+
+With love, from all at douce
