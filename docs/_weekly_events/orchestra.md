@@ -63,8 +63,8 @@ _"Joining the ECO has provided a unique opportunity for me and my child to conne
 _"Being part of the ECO has boosted my confidence and helped me grow as a musician. The welcoming nature of the orchestra has made it such an enjoyable and inspiring experience."_  
 -- **RS, Level 2 Violinist, Age 10**  
 
-_"The orchestra is a wonderful opportunity to play music alongside a diverse group of people. It’s lovely to see new and familiar faces come together at every rehearsal, sharing their talent and passion."_  
--- **Thulsi, First Violinist**  
+_"Thank you so much for setting up the orchestra - I've really enjoyed being part of it.  It has been a great opportunity for to play the violin again after so many years, and it's given me more purpose with my weekends!"_  
+-- ** First Violinist**  
 
 ---
 
@@ -96,7 +96,7 @@ Come and discover the joy of making music with the Eddington Community Orchestra
 
 ### Friends of ECO — Keep your orchestra going
 
-In just over a year, ECO has become a big part of our community. We rehearse weekly at Storey's Field Centre. It's open, relaxed, and free. No auditions. No fees.
+In just over a year, ECO has become a big part of our community. We rehearse weekly at Storey's Field Centre. It's open, relaxed, and free, thanks to the support of the Eddington Residents Association. Rehearsals and performances are free of charge.
 
 Now we're looking to make it sustainable.
 
@@ -115,4 +115,4 @@ or email [eddingtonorchestra@gmail.com](mailto://eddingtonorchestra@gmail.com)
 
 ---
 
-*Backed by the ERA and Clarion Futures*
+
