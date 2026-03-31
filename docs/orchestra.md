@@ -1,13 +1,85 @@
+### Eddington Community Orchestra
+
+Welcome to the **Eddington Community Orchestra (ECO)**, where music connects generations, fosters creativity, and brings our vibrant community together. The ECO is a welcoming and relaxed environment for musicians of all ages and abilities to come together, share their love of music, and grow as performers.
+
 ---
-title: Community Orchestra
-permalink: events/orchestra
+
+### About the Orchestra
+
+Conceived by a nine-year-old Eddington resident and formed in the autumn of 2024, the ECO began with 20 musicians ranging in age from 8 to 74. We practice most Sundays during term time from **3:00 PM to 4:30 PM** at **Storey’s Field Centre**, Eddington. Under the passionate direction of **Laurie Friday**, our Music Director, we explore a wide variety of music, culminating in community concerts that delight performers and audiences alike.
+
+Membership is open to musicians who have a basic grasp of their instrument (roughly equivalent to Grade 2 or above). Whether you’re returning to music after a break or eager to join a friendly community orchestra, we’d love to have you with us!
+
 ---
 
-Dust off your old instrument. Play with your child or grandchild. Find new musical friends or make beautiful music together. Come join us if you play an orchestral instrument at grade 2 or above (entry is free).
+### Why Join Us?
 
-Formed in the autumn of 2024 with 20 musicians aged 8 to 74, we practice most Sundays from 3 to 4.30 pm at Storey’s Field Centre under the direction of Laurie Friday. This term, we are preparing for a spring concert: Carnival of the Animals (but not what Saint-Saëns had in mind!).
+- **Intergenerational Connection:** Our members range across all ages, creating a unique and supportive environment.
+- **Relaxed Environment:** No auditions are required — just bring your enthusiasm and love for music.
+- **Community Focus:** Build relationships while contributing to the vibrant Eddington community.
+- **Free Membership:** Rehearsals and performances are free of charge, thanks to the support of the Eddington Residents Association.
 
-Contact us at [eddingtonorchestra@gmail.com](mailto:eddingtonorchestra@gmail.com) or register your interest [here](https://forms.gle/7ehZfGo7EEJRr5vQA).
+---
 
+### Safeguarding and Registration
 
+We are committed to the safety and wellbeing of all our members, especially children and adults with additional needs. Please see our safeguarding policy and registration details on [our sign-up form](https://docs.google.com/forms/d/e/1FAIpQLScibxyG5RsknEpWAkFwB3Zf0YhXW9FnrOTDbWqFaYU320hYCA/viewform).
+
+---
+
+### Meet Our Music Director
+
+**Dr. Laurie Friday**  
+Laurie brings over 50 years of musical experience to the ECO, as both a performer and conductor. A talented horn player and occasional bassist, Laurie has performed with orchestras and chamber groups across Cambridge. She has trained under expert conductors and is an alumna of the Girton Conducting Course, where she honed her craft.  
+
+Laurie is passionate about creating fun and musically rewarding experiences for orchestra members and audiences alike. Her dedication, creativity, and encouragement are the heart of the ECO.  
+> _"I will always be grateful to the ECO for giving me my first experience as a conductor. It has been an incredible journey, bringing together musicians of all ages and abilities to create something beautiful."_  
+> -- Laurie Friday  
+
+---
+
+### Upcoming Events
+
+Stay tuned for updates on our **Spring and Summer Concerts** in 2026!
+
+---
+
+### Testimonials
+
+_"Joining the ECO has provided a unique opportunity for me and my child to connect over our shared love of music. It’s a welcoming, relaxed group that fosters growth, creativity, and community."_  
+-- **Parent of an ECO Member**  
+
+_"Being part of the ECO has boosted my confidence and helped me grow as a musician. The welcoming nature of the orchestra has made it such an enjoyable and inspiring experience."_  
+-- **RS, Level 2 Violinist, Age 10**  
+
+_"The orchestra is a wonderful opportunity to play music alongside a diverse group of people. It’s lovely to see new and familiar faces come together at every rehearsal, sharing their talent and passion."_  
+-- **Thulsi, First Violinist**  
+
+---
+
+### Past Concerts
+
+- **Winter 2024 (Inaugural Concert)**  
+- **Spring 2025**  
+- **Summer 2025**  
+- **Winter 2025**
+- **Spring 2026**
+
+The ECO has delighted audiences with a variety of repertoire, from classical favorites to lively contemporary pieces. Each concert is a testament to our passion for music and community spirit.
+
+---
+
+### Join Us!
+
+We are always looking for new members to share in the joy of music-making.  
+- Sign up using [our registration form](https://docs.google.com/forms/d/e/1FAIpQLScibxyG5RsknEpWAkFwB3Zf0YhXW9FnrOTDbWqFaYU320hYCA/viewform).  
+- Or email us at **eddingtonorchestra@gmail.com**.
+
+Feel free to visit one of our rehearsals to get a feel for what we do — free parking is available nearby at the Eddington Park and Ride. If you have any specific questions, don’t hesitate to get in touch.
+
+Come and discover the joy of making music with the Eddington Community Orchestra!
+
+--- 
+
+Let me know if changes are needed to better align with your goals or audience! This vibrant landing page can be tailored further to meet any design or content preferences.
 *Backed by the ERA and Clarion Futures*
