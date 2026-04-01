@@ -21,6 +21,8 @@ Conceived by a nine-year-old Eddington resident and formed in the autumn of 2024
 
 Membership is open to musicians who have a basic grasp of their instrument (roughly equivalent to Grade 2 or above). Whether you’re returning to music after a break or eager to join a friendly community orchestra, we’d love to have you with us!
 
+<img width="100%" alt="the orchestra playing in Storey's Field Centre" src="https://github.com/user-attachments/assets/582edc0c-4c67-4724-84e8-25fdd46f2d2c" />
+
 ---
 
 ### Why Join Us?
@@ -39,6 +41,8 @@ We are committed to the safety and wellbeing of all our members, especially chil
 ---
 
 ### Meet Our Music Director
+
+<img style="float: right; margin-left: 1em; width: 40%;" alt="image of music director Laurie Friday" src="https://github.com/user-attachments/assets/569f181c-f8b7-42d5-83b4-e5ea5a28abe6" />
 
 **Dr. Laurie Friday**  
 Laurie brings over 50 years of musical experience to the ECO, as both a performer and conductor. A talented horn player and occasional bassist, Laurie has performed with orchestras and chamber groups across Cambridge. She has trained under expert conductors and is an alumna of the Girton Conducting Course, where she honed her craft.  
