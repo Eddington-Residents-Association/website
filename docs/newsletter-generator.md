@@ -59,6 +59,26 @@ specifying the non-test subject and that it's to go to everyone
 live (these are not relevant to non-Portal subscribers)
 - Once Irene has sent out the email to all residents on the Resisense list, send this second campaign to the ERA Mailchimp subscribers.
 
+##### Working around MailChimp sending limits
+
+Since Feb 2026 MailChimp has limited our free account's Audience number to 250. This caps how many recipients a campaign can have to 250 max. The workaround is as follows:
+
+- The oldest ~200 contacts in our audience have a Tag "SendChunk2". These are the most likely people to either be on Portal's list or to have left Eddington and just not unsubscribed.
+- Go to the Audience page and find Archive under the three-dot menu top right.
+- Unarchive everyone
+- Filter all contacts with the "SendChunk2" tag and archive them.
+- Under "Advanced Filters" build a segment based on "What type of emails you would like to receive?". The filter phrase should read `What type of email would you like to receive? - none of - All messages except monthly newsletter`
+- Select the top checkbox in the results table then where it says "100 contacts on this page selected." click the adjacent "Select all [number] contacts".
+- Tag these as "SendChunk1" (this merges our newest subscribers into the chunk we're about to send)
+- Open your campaign and edit the name to add an " A" suffix (e.g. "2026 April Events via MailChimp A")
+- Under "Send to" section choose "+ Target Segment" and filter on Tag to make the phrase `Tags - contact is tagged - SendChunk1`
+- Send this campaign.
+- Go to the Audience Archive and unarchive all contacts
+- Filter for all contacts without the tag "SendChunk2" and archive them
+- Replicate the campaign, suffix it " B".
+- Filter recipients as those with tag SendChunk2 who also do not have tag SendChunkOne and haven't opted out of newsletters. The resulting filters should read: `Tags - contact is tagged - SendChunk2`  AND `Tags - contact is not tagged - SendChunk1`  AND  `What type of email would you like to receive? - none of - All messages except monthly newsletter`.
+- As of April 2026 the daily sending limit on free account has been reduced from 500 to 250 in any day. As such you'll get a warning that this second campaign can't be sent. Wait 24 hours and it should work.
+
 </details>
 
 
