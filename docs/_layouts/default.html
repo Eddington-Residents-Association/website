@@ -355,8 +355,8 @@
       <a href="/handbook">handbook</a>
       {% assign month = "now" | date:"%m" | plus:0 %}
       {% assign day = "now" | date:"%d" | plus:0 %}
-      {% if month < 0 %}
-      <a href="archive/agm2025-summary">Summary of our 2025 AGM</a>
+      {% if month < 6 %}
+      <a href="/agm">{% include date_ordinal.md day=30 %} April - our 2026 AGM</a>
       {% endif %}
       <a id="nav-hide"><label for="nav-toggle-input">hide menu</label></a>
     </nav>
