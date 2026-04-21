@@ -45,7 +45,7 @@ We are committed to the safety and wellbeing of all our members, especially chil
 <img style="float: right; margin-left: 1em; width: 40%;" alt="image of music director Laurie Friday" src="https://github.com/user-attachments/assets/569f181c-f8b7-42d5-83b4-e5ea5a28abe6" />
 
 **Dr. Laurie Friday**  
-Laurie brings over 50 years of musical experience to the ECO, as both a performer and conductor. A talented horn player and occasional bassist, Laurie has performed with orchestras and chamber groups across Cambridge. She has trained under expert conductors and is an alumna of the Girton Conducting Course, where she honed her craft.  
+Laurie brings over 50 years of musical experience to the ECO, as both a performer and conductor. A talented horn player and occasional bassist, Laurie has performed with orchestras and chamber groups across Cambridge. She is an alumna of the Girton Conducting Course, where she gained her first experience in conducting under the tuition of Denise Ham and Leif Tse.
 
 Laurie is passionate about creating fun and musically rewarding experiences for orchestra members and audiences alike. Her dedication, creativity, and encouragement are the heart of the ECO.  
 > _"I will always be grateful to the ECO for giving me my first experience as a conductor. It has been an incredible journey, bringing together musicians of all ages and abilities to create something beautiful."_  
