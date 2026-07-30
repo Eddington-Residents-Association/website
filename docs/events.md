@@ -170,9 +170,9 @@ function makeEventsPageHtml(events, start_date){
             ` &nbsp; &nbsp; ${add_to_calendar_button(x)}\n<br/>\n`
             +` ${x[DESCRIPTION].trim()}`
             + (x[URL] ? `  <a href="${x[URL]}">${info_link(x)}</a>`:"")
-            +`<br>\n\n`
-          : "\n<br/>\n")
-         + ` </span>`
+            +`<br/>\n\n`
+          : `<br/>\n\n`)
+         + ` </span><br/>`
       ).join("\n")
 
     html += `<tr class="day ${weekend_class}">
