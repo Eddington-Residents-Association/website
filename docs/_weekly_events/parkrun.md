@@ -1,5 +1,5 @@
 ---
-title: Brook Leys Park Run
+title: Brook Leys parkrun
 code: parkrun
 day: Saturday
 start_time: "09:00"
@@ -11,4 +11,4 @@ website: https://www.parkrun.org.uk/brookleys/
 organiser_email: brookleys@parkrun.com
 ---
 
-Consistently the best attended event in Eddington, Parkrun is a free, fun, and friendly weekly 5k community event. Walk, jog, run, volunteer or spectate - all levels are welcome.
+Consistently the best attended event in Eddington, parkrun is a free, fun, and friendly weekly 5k community event. Walk, jog, run, volunteer or spectate - all levels are welcome.
